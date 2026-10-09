@@ -1,0 +1,58 @@
+{%- liquid
+  if product.compare_at_price > product.price and show_save_amount
+    if save_type == 'label'
+      assign saved_amount = save_type
+    elsif save_type == 'dollar'
+      assign saved_amount = product.compare_at_price | minus: product.price | money
+    else
+      assign saved_amount = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round
+      assign saved_amount = saved_amount | append: '%'
+    endif
+  endif
+-%}
+<div class="badges{% if class != blank %} {{ class }}{% endif %} pointer-events-none"
+     {% if product.available == false %}data-sold-out="{{ 'products.product.sold_out' | t | escape }}"{% endif %}>
+  {%- if product.metafields.theme.label.value != blank -%}
+  {%- capture styles -%}
+    {%- if product.metafields.theme.label_color.value != blank -%}
+      --badge-background: {{ product.metafields.theme.label_color.value }}; --badge-foreground: #ffffff;
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- for label in product.metafields.theme.label.value -%}
+    <span class="badge flex items-center gap-1d5 uppercase leading-none rounded-full"{% if styles != blank %} style="{{ styles }}"{% endif %}>
+      {%- if product.available == false -%}
+        {{- 'products.product.sold_out' | t | escape -}}
+      {%- else -%}
+        {{- label | escape -}}
+      {%- endif -%}
+    </span>
+  {%- endfor -%}
+{%- elsif product.available == false -%}
+  <span class="badge flex items-center gap-1d5 uppercase leading-none rounded-full">
+    {{- 'products.product.sold_out' | t | escape -}}
+  </span>
+{%- endif -%}
+
+  {%- if saved_amount != blank -%}
+     <span class="badge badge--onsale flex items-center gap-1d5 uppercase leading-none rounded-full">
+      {%- liquid
+        if save_type == 'label'
+          echo 'products.general.sale' | t
+        else
+          echo 'products.general.save_html' | t: saved_amount: saved_amount
+        endif
+      -%}
+    </span>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.badges != blank -%}
+    {%- assign badge_json = product.metafields.custom.badges -%}
+    {%- assign badge_clean = badge_json | remove: '[' | remove: ']' | remove: '"' -%}
+    {%- assign badges = badge_clean | split: ',' -%}
+    {%- for badge in badges -%}
+      <span class="badge badge--onsale flex items-center gap-1d5 uppercase leading-none rounded-full">
+        {{ badge | strip | escape }}
+      </span>
+    {%- endfor -%}
+  {%- endif -%}
+</div>
