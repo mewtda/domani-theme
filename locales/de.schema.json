@@ -48,7 +48,7 @@
           "info": "Lasse die Beschriftung leer, um die Schaltfläche auszublenden."
         },
         "button_link": {
-          "label": "SchaltflächenHintergrund"
+          "label": "Schaltflächenlink"
         },
         "button_size": {
           "options__1": {
@@ -704,6 +704,16 @@
         },
         "rounded": {
           "label": "Abschnitt abgerundet machen"
+        },
+        "button_external": {
+          "label": "Link in neuem Tab öffnen"
+        },
+        "button_icon": {
+          "label": "Schaltflächensymbol anzeigen"
+        },
+        "link_whole_banner": {
+          "label": "Gesamtes Banner verlinken",
+          "info": "Macht die gesamte Folie mit dem Schaltflächenlink anklickbar, nicht nur die Schaltfläche."
         }
       },
       "blocks": {
@@ -830,15 +840,15 @@
       "settings": {
         "show_social": {
           "label": "Social-Media-Symbole anzeigen",
-          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](\/editor?context=theme&category=social%20media)."
+          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](/editor?context=theme&category=social%20media)."
         },
         "enable_country_selector": {
-          "label": "Auswahl für Land\/Region aktivieren",
-          "info": "Gehe zu den [Markteinstellungen](\/admin\/settings\/markets), um ein Land \/ eine Region hinzuzufügen."
+          "label": "Auswahl für Land/Region aktivieren",
+          "info": "Gehe zu den [Markteinstellungen](/admin/settings/markets), um ein Land / eine Region hinzuzufügen."
         },
         "enable_language_selector": {
           "label": "Sprachauswahl aktivieren",
-          "info": "Gehe zu den [Spracheinstellungen](\/admin\/settings\/languages), um eine Sprache hinzuzufügen."
+          "info": "Gehe zu den [Spracheinstellungen](/admin/settings/languages), um eine Sprache hinzuzufügen."
         },
         "invert_icons_selectors": {
           "label": "Symbole und Selektoren invertieren"
@@ -911,7 +921,7 @@
       "name": "Warenkorbeinschub",
       "settings": {
         "paragraph": {
-          "content": "Der Warenkorb wird Ihren Kunden nicht angezeigt, wenn Sie den Warenkorbtyp in Ihren [theme settings](\/editor?context=theme&category=cart) auf „Seite“ eingestellt haben."
+          "content": "Der Warenkorb wird Ihren Kunden nicht angezeigt, wenn Sie den Warenkorbtyp in Ihren [theme settings](/editor?context=theme&category=cart) auf „Seite“ eingestellt haben."
         },
         "show_vendor": {
           "label": "Anbieter anzeigen"
@@ -931,7 +941,7 @@
         },
         "header__free_shipping": {
           "content": "Kostenloser versand leiste",
-          "info": "Stellen Sie sicher, dass Sie Ihre [Liefergebühren](\/admin\/settings\/shipping) richtig konfiguriert haben."
+          "info": "Stellen Sie sicher, dass Sie Ihre [Liefergebühren](/admin/settings/shipping) richtig konfiguriert haben."
         },
         "show_free_shipping_bar": {
           "label": "Kostenloser versand leiste anzeigen"
@@ -942,7 +952,7 @@
         },
         "header__cart_recommendations": {
           "content": "Einkaufswagenempfehlungen",
-          "info": "Dynamische Empfehlungen basieren auf den Artikeln in Ihrem Einkaufswagen. Sie ändern und verbessern sich mit der Zeit. [weitere Infos](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)."
+          "info": "Dynamische Empfehlungen basieren auf den Artikeln in Ihrem Einkaufswagen. Sie ändern und verbessern sich mit der Zeit. [weitere Infos](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)."
         },
         "cart_recommendations_enabled": {
           "label": "Aktivieren Sie Einkaufswagenempfehlungen"
@@ -1023,7 +1033,7 @@
       "name": "Kontaktformular",
       "settings": {
         "paragraph": {
-          "content": "Alle Einsendungen werden an die Kunden-E-Mail-Adresse deines Shops gesendet. [Mehr erfahren](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions)."
+          "content": "Alle Einsendungen werden an die Kunden-E-Mail-Adresse deines Shops gesendet. [Mehr erfahren](https://help.shopify.com/en/manual/using-themes/change-the-layout/add-contact-form#view-contact-form-submissions)."
         }
       },
       "blocks": {
@@ -1432,22 +1442,22 @@
       "name": "Copyright in der Fußzeile",
       "settings": {
         "header__country_selector": {
-          "content": "Auswahl für Land\/Region",
-          "info": "Gehe zu den [Markteinstellungen](\/admin\/settings\/markets), um ein Land \/ eine Region hinzuzufügen."
+          "content": "Auswahl für Land/Region",
+          "info": "Gehe zu den [Markteinstellungen](/admin/settings/markets), um ein Land / eine Region hinzuzufügen."
         },
         "enable_country_selector": {
-          "label": "Auswahl für Land\/Region aktivieren"
+          "label": "Auswahl für Land/Region aktivieren"
         },
         "header__language_selector": {
           "content": "Sprachauswahl",
-          "info": "Gehe zu den [Spracheinstellungen](\/admin\/settings\/languages), um eine Sprache hinzuzufügen."
+          "info": "Gehe zu den [Spracheinstellungen](/admin/settings/languages), um eine Sprache hinzuzufügen."
         },
         "enable_language_selector": {
           "label": "Sprachauswahl aktivieren"
         },
         "header__policy": {
           "content": "Links zu Richtlinien",
-          "info": "Um Richtlinien für den Shop hinzuzufügen, gehe zu deinen [Richtlinien-Einstellungen](\/admin\/settings\/legal)."
+          "info": "Um Richtlinien für den Shop hinzuzufügen, gehe zu deinen [Richtlinien-Einstellungen](/admin/settings/legal)."
         },
         "show_policy": {
           "label": "Links zu Richtlinien anzeigen"
@@ -1477,14 +1487,14 @@
       "settings": {
         "header__newsletter": {
           "content": "E-Mail-Anmeldung",
-          "info": "Abonnenten, die automatisch zu deiner Kundenliste \"Akzeptiert Marketing\" hinzugefügt wurden. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+          "info": "Abonnenten, die automatisch zu deiner Kundenliste \"Akzeptiert Marketing\" hinzugefügt wurden. [Mehr Informationen](https://help.shopify.com/manual/customers/manage-customers)"
         },
         "enable_newsletter": {
           "label": "E-Mail-Anmeldung anzeigen"
         },
         "header__social": {
           "content": "Social Media-Symbole",
-          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](\/editor?context=theme&category=social%20media)."
+          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Social-Media-Symbole anzeigen"
@@ -1567,7 +1577,7 @@
       "name": "Header",
       "settings": {
         "paragraph__logo_help": {
-          "content": "Bearbeite dein Logo in den [theme settings](\/editor?context=theme&category=logo)."
+          "content": "Bearbeite dein Logo in den [theme settings](/editor?context=theme&category=logo)."
         },
         "menu": {
           "label": "Menü"
@@ -1635,15 +1645,15 @@
         },
         "show_social": {
           "label": "Social-Media-Symbole anzeigen",
-          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](\/editor?context=theme&category=social%20media)."
+          "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](/editor?context=theme&category=social%20media)."
         },
         "enable_country_selector": {
-          "label": "Auswahl für Land\/Region aktivieren",
-          "info": "Gehe zu den [Markteinstellungen](\/admin\/settings\/markets), um ein Land \/ eine Region hinzuzufügen."
+          "label": "Auswahl für Land/Region aktivieren",
+          "info": "Gehe zu den [Markteinstellungen](/admin/settings/markets), um ein Land / eine Region hinzuzufügen."
         },
         "enable_language_selector": {
           "label": "Sprachauswahl aktivieren",
-          "info": "Gehe zu den [Spracheinstellungen](\/admin\/settings\/languages), um eine Sprache hinzuzufügen."
+          "info": "Gehe zu den [Spracheinstellungen](/admin/settings/languages), um eine Sprache hinzuzufügen."
         },
         "header__transparent": {
           "content": "Transparente Kopfzeile",
@@ -2170,14 +2180,14 @@
       "name": "Kategoriebanner",
       "settings": {
         "paragraph": {
-          "content": "Bearbeite deine Kategorien, um eine Beschreibung oder ein Bild hinzuzufügen. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
+          "content": "Bearbeite deine Kategorien, um eine Beschreibung oder ein Bild hinzuzufügen. [Mehr Informationen](https://help.shopify.com/manual/products/collections/collection-layout)"
         },
         "show_description": {
           "label": "Kategoriebeschreibung anzeigen"
         },
         "show_image": {
           "label": "Kategoriebild anzeigen",
-          "info": "Verwende für Bilder ein Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Verwende für Bilder ein Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "image": {
           "info": "Standardmäßig auf Kollektionsbild eingestellt."
@@ -2226,7 +2236,7 @@
         },
         "enable_filtering": {
           "label": "Filtern aktivieren",
-          "info": "Passe Filter mit der App Search & Discovery an. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+          "info": "Passe Filter mit der App Search & Discovery an. [Mehr Informationen](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
         },
         "filter_collapsed": {
           "label": "Filter einklappen"
@@ -2598,7 +2608,16 @@
               "info": "Wähle 0 aus, um immer den Lagerbestand anzuzeigen, falls verfügbar."
             },
             "show_inventory_quantity": {
-              "label": "Inventar anzeigen"
+              "label": "Inventar anzeigen",
+              "options__1": {
+                "label": "Nie"
+              },
+              "options__2": {
+                "label": "Bei niedrigem Bestand"
+              },
+              "options__3": {
+                "label": "Immer"
+              }
             },
             "show_inventory_transfer": {
               "label": "Benachrichtigung zur Lagerbestandsübertragung anzeigen",
@@ -2800,6 +2819,30 @@
               "content": "Halten Sie die Schaltfläche Zum Warenkorb hinzufügen sichtbar, während Kunden stöbern und scrollen."
             }
           }
+        },
+        "volume_pricing": {
+          "name": "Mengenrabatte"
+        },
+        "back_in_stock": {
+          "name": "Formular „Wieder verfügbar“",
+          "settings": {
+            "header": {
+              "content": "Wieder verfügbar",
+              "info": "Ermöglicht Kunden, sich benachrichtigen zu lassen, wenn ein ausverkauftes Produkt wieder verfügbar ist."
+            },
+            "paragraph": {
+              "content": "Anfragen werden wie beim Kontaktformular an die Kunden-E-Mail-Adresse deines Shops gesendet."
+            },
+            "enabled": {
+              "label": "Formular „Wieder verfügbar“ bei Ausverkauf anzeigen"
+            },
+            "show_name": {
+              "label": "Namensfeld anzeigen"
+            },
+            "show_phone": {
+              "label": "Telefonfeld anzeigen"
+            }
+          }
         }
       }
     },
@@ -2937,7 +2980,7 @@
       "name": "E-Mail-Anmeldung",
       "settings": {
         "paragraph": {
-          "content": "Abonnenten, die automatisch zu deiner Kundenliste \"Akzeptiert Marketing\" hinzugefügt wurden. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+          "content": "Abonnenten, die automatisch zu deiner Kundenliste \"Akzeptiert Marketing\" hinzugefügt wurden. [Mehr Informationen](https://help.shopify.com/manual/customers/manage-customers)"
         }
       },
       "blocks": {
@@ -3039,7 +3082,7 @@
             },
             "show_social": {
               "label": "Social-Media-Symbole anzeigen",
-              "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](\/editor?context=theme&category=social%20media)."
+              "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](/editor?context=theme&category=social%20media)."
             },
             "social_heading": {
               "label": "Rubrik \"Soziale Medien\""
@@ -3107,7 +3150,7 @@
       "name": "Verwandte Produkte",
       "settings": {
         "paragraph": {
-          "content": "Dynamische Empfehlungen nutzen Bestell- und Produktinformationen, um sich mit der Zeit zu verändern und zu verbessern. [Weitere Informationen](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
+          "content": "Dynamische Empfehlungen nutzen Bestell- und Produktinformationen, um sich mit der Zeit zu verändern und zu verbessern. [Weitere Informationen](https://help.shopify.com/themes/development/recommended-products)"
         },
         "product_limit": {
           "label": "Anzahl der verwandten Produkte"
@@ -3138,7 +3181,7 @@
       "name": "Schublade suchen",
       "settings": {
         "paragraph": {
-          "content": "Die Suchleiste wird Ihren Kunden nicht angezeigt, wenn Sie die Suchfunktion in Ihren [Theme-Einstellungen](\/editor?context=theme&category=search) aktiviert haben."
+          "content": "Die Suchleiste wird Ihren Kunden nicht angezeigt, wenn Sie die Suchfunktion in Ihren [Theme-Einstellungen](/editor?context=theme&category=search) aktiviert haben."
         }
       }
     },
@@ -3202,6 +3245,12 @@
         },
         "show_navigation": {
           "label": "Navigation anzeigen"
+        },
+        "content_position": {
+          "label": "Position des Bannerinhalts"
+        },
+        "content_alignment": {
+          "label": "Horizontale Ausrichtung des Inhalts"
         }
       },
       "blocks": {
@@ -3878,39 +3927,39 @@
         },
         "social_twitter_link": {
           "label": "Twitter",
-          "info": "https:\/\/twitter.com\/shopify"
+          "info": "https://twitter.com/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https:\/\/facebook.com\/shopify"
+          "info": "https://facebook.com/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https:\/\/pinterest.com\/shopify"
+          "info": "https://pinterest.com/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http:\/\/instagram.com\/shopify"
+          "info": "http://instagram.com/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https:\/\/tiktok.com\/@shopify"
+          "info": "https://tiktok.com/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "http:\/\/shopify.tumblr.com"
+          "info": "http://shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https:\/\/www.snapchat.com\/add\/shopify"
+          "info": "https://www.snapchat.com/add/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https:\/\/www.youtube.com\/shopify"
+          "info": "https://www.youtube.com/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https:\/\/vimeo.com\/shopify"
+          "info": "https://vimeo.com/shopify"
         },
         "header__sharing_options": {
           "content": "Optionen zum Teilen"

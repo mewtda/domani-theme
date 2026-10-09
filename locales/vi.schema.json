@@ -704,6 +704,16 @@
         },
         "rounded": {
           "label": "Bo góc mục"
+        },
+        "button_external": {
+          "label": "Mở liên kết trong tab mới"
+        },
+        "button_icon": {
+          "label": "Hiển thị biểu tượng nút"
+        },
+        "link_whole_banner": {
+          "label": "Liên kết toàn bộ banner",
+          "info": "Cho phép nhấp vào toàn bộ trang chiếu bằng liên kết của nút, không chỉ riêng nút."
         }
       },
       "blocks": {
@@ -2598,7 +2608,16 @@
               "info": "Chọn 0 để luôn hiển thị còn hàng nếu có."
             },
             "show_inventory_quantity": {
-              "label": "Hiển thị số lượng hàng tồn kho"
+              "label": "Hiển thị số lượng hàng tồn kho",
+              "options__1": {
+                "label": "Không bao giờ"
+              },
+              "options__2": {
+                "label": "Khi sắp hết"
+              },
+              "options__3": {
+                "label": "Luôn luôn"
+              }
             },
             "show_inventory_transfer": {
               "label": "Hiển thị thông báo chuyển hàng tồn kho",
@@ -2798,6 +2817,30 @@
           "settings": {
             "paragraph": {
               "content": "Giữ nút thêm vào giỏ hàng hiển thị khi khách hàng duyệt và cuộn."
+            }
+          }
+        },
+        "volume_pricing": {
+          "name": "Giá theo số lượng"
+        },
+        "back_in_stock": {
+          "name": "Biểu mẫu có hàng trở lại",
+          "settings": {
+            "header": {
+              "content": "Có hàng trở lại",
+              "info": "Cho phép khách hàng yêu cầu được thông báo khi sản phẩm hết hàng có hàng trở lại."
+            },
+            "paragraph": {
+              "content": "Yêu cầu được gửi đến địa chỉ email khách hàng của cửa hàng, giống như biểu mẫu liên hệ."
+            },
+            "enabled": {
+              "label": "Hiển thị biểu mẫu có hàng trở lại khi hết hàng"
+            },
+            "show_name": {
+              "label": "Hiển thị trường tên"
+            },
+            "show_phone": {
+              "label": "Hiển thị trường số điện thoại"
             }
           }
         }
@@ -3202,6 +3245,12 @@
         },
         "show_navigation": {
           "label": "Hiển thị menu điều hướng"
+        },
+        "content_position": {
+          "label": "Vị trí nội dung banner"
+        },
+        "content_alignment": {
+          "label": "Căn chỉnh ngang nội dung"
         }
       },
       "blocks": {

@@ -704,6 +704,16 @@
         },
         "rounded": {
           "label": "Make section rounded"
+        },
+        "button_external": {
+          "label": "Open link in a new tab"
+        },
+        "button_icon": {
+          "label": "Show button icon"
+        },
+        "link_whole_banner": {
+          "label": "Link entire banner",
+          "info": "Makes the whole slide clickable using the button link, not just the button."
         }
       },
       "blocks": {
@@ -830,15 +840,15 @@
       "settings": {
         "show_social": {
           "label": "Show social media icons",
-          "info": "To display your social media accounts, link them in your [theme settings](\/editor?context=theme&category=social%20media)."
+          "info": "To display your social media accounts, link them in your [theme settings](/editor?context=theme&category=social%20media)."
         },
         "enable_country_selector": {
-          "label": "Enable country\/region selector",
-          "info": "To add a country\/region, go to your [market settings](\/admin\/settings\/markets)."
+          "label": "Enable country/region selector",
+          "info": "To add a country/region, go to your [market settings](/admin/settings/markets)."
         },
         "enable_language_selector": {
           "label": "Enable language selector",
-          "info": "To add a language, go to your [language settings](\/admin\/settings\/languages)."
+          "info": "To add a language, go to your [language settings](/admin/settings/languages)."
         },
         "invert_icons_selectors": {
           "label": "Invert icons and selectors"
@@ -911,7 +921,7 @@
       "name": "Cart drawer",
       "settings": {
         "paragraph": {
-          "content": "Cart drawer won't appear to your customers if you have set the cart type to \"Page\" in your [theme settings](\/editor?context=theme&category=cart)."
+          "content": "Cart drawer won't appear to your customers if you have set the cart type to \"Page\" in your [theme settings](/editor?context=theme&category=cart)."
         },
         "show_vendor": {
           "label": "Show vendor"
@@ -931,7 +941,7 @@
         },
         "header__free_shipping": {
           "content": "Free shipping bar",
-          "info": "Make sure that you have properly configured your [shipping rates](\/admin\/settings\/shipping)."
+          "info": "Make sure that you have properly configured your [shipping rates](/admin/settings/shipping)."
         },
         "show_free_shipping_bar": {
           "label": "Show free shipping bar"
@@ -942,7 +952,7 @@
         },
         "header__cart_recommendations": {
           "content": "Cart recommendations",
-          "info": "Dynamic recommendations are based on the items in your cart. They change and improve with time. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)."
+          "info": "Dynamic recommendations are based on the items in your cart. They change and improve with time. [Learn more](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)."
         },
         "cart_recommendations_enabled": {
           "label": "Enable cart recommendations"
@@ -1023,7 +1033,7 @@
       "name": "Contact form",
       "settings": {
         "paragraph": {
-          "content": "All submissions are sent to the customer email address of your store. [Learn more](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions)."
+          "content": "All submissions are sent to the customer email address of your store. [Learn more](https://help.shopify.com/en/manual/using-themes/change-the-layout/add-contact-form#view-contact-form-submissions)."
         }
       },
       "blocks": {
@@ -1432,22 +1442,22 @@
       "name": "Footer copyright",
       "settings": {
         "header__country_selector": {
-          "content": "Country\/region selector",
-          "info": "To add a country\/region, go to your [market settings.](\/admin\/settings\/markets)"
+          "content": "Country/region selector",
+          "info": "To add a country/region, go to your [market settings.](/admin/settings/markets)"
         },
         "enable_country_selector": {
-          "label": "Enable country\/region selector"
+          "label": "Enable country/region selector"
         },
         "header__language_selector": {
           "content": "Language selector",
-          "info": "To add a language, go to your [language settings.](\/admin\/settings\/languages)"
+          "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
         },
         "enable_language_selector": {
           "label": "Enable language selector"
         },
         "header__policy": {
           "content": "Policy links",
-          "info": "To add store policies, go to your [policy settings](\/admin\/settings\/legal)."
+          "info": "To add store policies, go to your [policy settings](/admin/settings/legal)."
         },
         "show_policy": {
           "label": "Show policy links"
@@ -1477,14 +1487,14 @@
       "settings": {
         "header__newsletter": {
           "content": "Email Signup",
-          "info": "Subscribers added automatically to your \"accepted marketing\" customer list. [Learn more](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+          "info": "Subscribers added automatically to your \"accepted marketing\" customer list. [Learn more](https://help.shopify.com/manual/customers/manage-customers)"
         },
         "enable_newsletter": {
           "label": "Show email signup"
         },
         "header__social": {
           "content": "Social media icons",
-          "info": "To display your social media accounts, link them in your [theme settings](\/editor?context=theme&category=social%20media)."
+          "info": "To display your social media accounts, link them in your [theme settings](/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Show social media icons"
@@ -1567,7 +1577,7 @@
       "name": "Header",
       "settings": {
         "paragraph__logo_help": {
-          "content": "Edit your logo in [theme settings](\/editor?context=theme&category=logo)."
+          "content": "Edit your logo in [theme settings](/editor?context=theme&category=logo)."
         },
         "menu": {
           "label": "Menu"
@@ -1635,15 +1645,15 @@
         },
         "show_social": {
           "label": "Show social media icons",
-          "info": "To display your social media accounts, link them in your [theme settings](\/editor?context=theme&category=social%20media)."
+          "info": "To display your social media accounts, link them in your [theme settings](/editor?context=theme&category=social%20media)."
         },
         "enable_country_selector": {
-          "label": "Enable country\/region selector",
-          "info": "To add a country\/region, go to your [market settings](\/admin\/settings\/markets)."
+          "label": "Enable country/region selector",
+          "info": "To add a country/region, go to your [market settings](/admin/settings/markets)."
         },
         "enable_language_selector": {
           "label": "Enable language selector",
-          "info": "To add a language, go to your [language settings](\/admin\/settings\/languages)."
+          "info": "To add a language, go to your [language settings](/admin/settings/languages)."
         },
         "header__transparent": {
           "content": "Transparent header",
@@ -2170,14 +2180,14 @@
       "name": "Collection banner",
       "settings": {
         "paragraph": {
-          "content": "Add a description or image by editing your collection. [Learn more](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
+          "content": "Add a description or image by editing your collection. [Learn more](https://help.shopify.com/manual/products/collections/collection-layout)"
         },
         "show_description": {
           "label": "Show collection description"
         },
         "show_image": {
           "label": "Show collection image",
-          "info": "For best results, use an image with a 16:9 aspect ratio. [Learn more](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "For best results, use an image with a 16:9 aspect ratio. [Learn more](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "image": {
           "info": "Default to collection image."
@@ -2226,7 +2236,7 @@
         },
         "enable_filtering": {
           "label": "Enable filtering",
-          "info": "Customize filters with the Search & Discovery app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+          "info": "Customize filters with the Search & Discovery app. [Learn more](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
         },
         "filter_collapsed": {
           "label": "Collapse filters"
@@ -2598,7 +2608,16 @@
               "info": "Choose 0 to always show in stock if available."
             },
             "show_inventory_quantity": {
-              "label": "Show inventory count"
+              "label": "Show inventory count",
+              "options__1": {
+                "label": "Never"
+              },
+              "options__2": {
+                "label": "When low"
+              },
+              "options__3": {
+                "label": "Always"
+              }
             },
             "show_inventory_transfer": {
               "label": "Show inventory transfer notice",
@@ -2800,6 +2819,30 @@
               "content": "Keep add to cart button visible as customers browse and scroll."
             }
           }
+        },
+        "volume_pricing": {
+          "name": "Volume pricing"
+        },
+        "back_in_stock": {
+          "name": "Back in stock form",
+          "settings": {
+            "header": {
+              "content": "Back in stock",
+              "info": "Lets customers ask to be notified when a sold-out product is available again."
+            },
+            "paragraph": {
+              "content": "Requests are sent to your store's customer email address, like the contact form."
+            },
+            "enabled": {
+              "label": "Show back in stock form when sold out"
+            },
+            "show_name": {
+              "label": "Show name field"
+            },
+            "show_phone": {
+              "label": "Show phone field"
+            }
+          }
         }
       }
     },
@@ -2937,7 +2980,7 @@
       "name": "Email signup",
       "settings": {
         "paragraph": {
-          "content": "Subscribers added automatically to your \"accepted marketing\" customer list. [Learn more](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+          "content": "Subscribers added automatically to your \"accepted marketing\" customer list. [Learn more](https://help.shopify.com/manual/customers/manage-customers)"
         }
       },
       "blocks": {
@@ -2948,7 +2991,7 @@
           "name": "Social media icons",
           "settings": {
             "paragraph": {
-              "content": "To display your social media accounts, link them in your [theme settings](\/editor?context=theme&category=social%20media)."
+              "content": "To display your social media accounts, link them in your [theme settings](/editor?context=theme&category=social%20media)."
             }
           }
         }
@@ -3039,7 +3082,7 @@
             },
             "show_social": {
               "label": "Show social media icons",
-              "info": "To display your social media accounts, link them in your [theme settings](\/editor?context=theme&category=social%20media)."
+              "info": "To display your social media accounts, link them in your [theme settings](/editor?context=theme&category=social%20media)."
             },
             "social_heading": {
               "label": "Social media heading"
@@ -3107,7 +3150,7 @@
       "name": "Related products",
       "settings": {
         "paragraph": {
-          "content": "Dynamic recommendations use order and product information to change and improve over time. [Learn more](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+          "content": "Dynamic recommendations use order and product information to change and improve over time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products)"
         },
         "product_limit": {
           "label": "Number of related products"
@@ -3138,7 +3181,7 @@
       "name": "Search drawer",
       "settings": {
         "paragraph": {
-          "content": "Search drawer won't appear to your customers if you have set the cart type to \"Page\" in your [theme settings](\/editor?context=theme&category=search)."
+          "content": "Search drawer won't appear to your customers if you have set the cart type to \"Page\" in your [theme settings](/editor?context=theme&category=search)."
         }
       }
     },
@@ -3202,6 +3245,12 @@
         },
         "show_navigation": {
           "label": "Show navigation"
+        },
+        "content_position": {
+          "label": "Banner content position"
+        },
+        "content_alignment": {
+          "label": "Content horizontal alignment"
         }
       },
       "blocks": {
@@ -3878,39 +3927,39 @@
         },
         "social_twitter_link": {
           "label": "Twitter",
-          "info": "https:\/\/twitter.com\/shopify"
+          "info": "https://twitter.com/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https:\/\/facebook.com\/shopify"
+          "info": "https://facebook.com/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https:\/\/pinterest.com\/shopify"
+          "info": "https://pinterest.com/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http:\/\/instagram.com\/shopify"
+          "info": "http://instagram.com/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https:\/\/tiktok.com\/@shopify"
+          "info": "https://tiktok.com/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https:\/\/shopify.tumblr.com"
+          "info": "https://shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https:\/\/www.snapchat.com\/add\/shopify"
+          "info": "https://www.snapchat.com/add/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https:\/\/www.youtube.com\/shopify"
+          "info": "https://www.youtube.com/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https:\/\/vimeo.com\/shopify"
+          "info": "https://vimeo.com/shopify"
         },
         "header__sharing_options": {
           "content": "Sharing options"
