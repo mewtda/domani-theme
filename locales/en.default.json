@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "general": {
     "accessibility": {
       "skip_to_content": "Skip to content",
@@ -297,7 +297,8 @@
       "in_stock_only": "In stock only",
       "clear": "Remove filter \"{{ name }}\"",
       "clear_all": "Clear all",
-      "apply": "Apply"
+      "apply": "Apply",
+      "filter_button": "Filter"
     },
     "subcollections": {
       "all_products": "All {{ collection }}"
@@ -307,7 +308,8 @@
     "country_label": "Country/region",
     "language_label": "Language",
     "update_language": "Update language",
-    "update_country": "Update country/region"
+    "update_country": "Update country/region",
+    "text_direction_trigger": "LTR"
   },
   "contact": {
     "form": {
@@ -446,7 +448,11 @@
       "size_chart": "Size chart",
       "save_html": "Save {{ saved_amount }}",
       "sale": "Sale",
-      "show_more": "Show more"
+      "show_more": "Show more",
+      "from_text_html": "<small>From</small> {{ price }}",
+      "regular_price": "Regular price",
+      "sale_price": "Sale price",
+      "unit_price": "Unit price"
     },
     "product": {
       "product_variants": "Product variants",
@@ -514,7 +520,11 @@
       "out_of_stock_continue_selling": "In stock",
       "will_not_ship_until": "Ready to ship {{ date }}",
       "will_be_in_stock_after": "Back in stock {{ date }}",
-      "waiting_for_stock": "Inventory on the way"
+      "waiting_for_stock": "Inventory on the way",
+      "low_stock_html": {
+        "one": "Hurry, only <strong>{{ count }}</strong> item left in stock!",
+        "other": "Hurry, only <strong>{{ count }}</strong> items left in stock!"
+      }
     },
     "pickup_availability": {
       "title": "Pickup availability",

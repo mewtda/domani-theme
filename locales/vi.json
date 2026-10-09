@@ -78,7 +78,8 @@
         "snapchat": "Snapchat",
         "youtube": "YouTube",
         "vimeo": "Vimeo",
-        "tiktok": "TikTok"
+        "tiktok": "TikTok",
+        "linkedin": "LinkedIn"
       }
     },
     "newsletter": {
@@ -176,6 +177,37 @@
     "slideshow": {
       "play_slideshow": "Chạy trình chiếu",
       "pause_slideshow": "Tạm dừng trình chiếu"
+    },
+    "product_bundle": {
+      "add_to_cart": "Thêm vào giỏ hàng",
+      "discounts_at_checkout": "Giảm giá sẽ được áp dụng khi thanh toán.",
+      "remove": "Xóa",
+      "total": "Tổng"
+    },
+    "quick_order_list": {
+      "cancel": "Hủy",
+      "each": "{{ money }}/sản phẩm",
+      "items_added": {
+        "one": "Đã thêm {{ quantity }} sản phẩm",
+        "other": "Đã thêm {{ quantity }} sản phẩm"
+      },
+      "items_removed": {
+        "one": "Đã xóa {{ quantity }} sản phẩm",
+        "other": "Đã xóa {{ quantity }} sản phẩm"
+      },
+      "max_error": "Sản phẩm này có tối đa {{ max }}",
+      "min_error": "Sản phẩm này có tối thiểu {{ min }}",
+      "product": "Sản phẩm",
+      "product_total": "Tạm tính sản phẩm",
+      "product_variants": "Mẫu mã sản phẩm",
+      "remove_all": "Xóa tất cả",
+      "remove_all_items_confirmation": "Xóa tất cả {{ quantity }} sản phẩm khỏi giỏ hàng?",
+      "remove_all_single_item_confirmation": "Xóa 1 sản phẩm khỏi giỏ hàng?",
+      "step_error": "Bạn chỉ có thể thêm sản phẩm này theo bội số của {{ step }}",
+      "total_items": "Tổng số sản phẩm",
+      "variant": "Mẫu mã",
+      "variant_total": "Tổng mẫu mã",
+      "view_cart": "Xem giỏ hàng"
     }
   },
   "blogs": {
@@ -255,7 +287,9 @@
       "in_stock_only": "Còn hàng",
       "clear": "Xóa bộ lọc \"{{ name }}\"",
       "clear_all": "Xóa tất cả",
-      "apply": "Áp dụng"
+      "apply": "Áp dụng",
+      "filter_hide_button": "Ẩn bộ lọc",
+      "filter_show_button": "Hiển thị bộ lọc"
     },
     "subcollections": {
       "all_products": "Tất cả {{ collection }}"
@@ -326,7 +360,8 @@
       "create_account": "Tạo tài khoản",
       "return": "Quay lại cửa hàng",
       "guest_title": "Tiếp tục với tư cách khách",
-      "guest_continue": "Tiếp tục"
+      "guest_continue": "Tiếp tục",
+      "alternate_provider_separator": "hoặc"
     },
     "orders": {
       "title": "Lịch sử đơn hàng",
@@ -407,7 +442,8 @@
       "regular_price": "Giá thông thường",
       "sale_price": "Giá ưu đãi",
       "unit_price": "Đơn giá",
-      "from_text_html": "<small>Từ</small> {{ price }}"
+      "from_text_html": "<small>Từ</small> {{ price }}",
+      "show_more": "Xem thêm"
     },
     "product": {
       "product_variants": "Mẫu mã sản phẩm",
@@ -428,7 +464,8 @@
       "xr_button_label": "Xem tại không gian của bạn, tải mặt hàng trong cửa sổ thực tế ảo tăng cường",
       "read_more": "Xem chi tiết",
       "quick_add": "Thêm",
-      "quick_view": "Xem"
+      "quick_view": "Xem",
+      "add_to_bundle": "Thêm vào gói"
     },
     "media": {
       "open_media": "Mở phương tiện {{ index }} ở chế độ",
@@ -440,7 +477,14 @@
       "label": "Số lượng",
       "input_label": "Số lượng cho {{ product }}",
       "increase": "Tăng số lượng cho {{ product }}",
-      "decrease": "Giảm số lượng cho {{ product }}"
+      "decrease": "Giảm số lượng cho {{ product }}",
+      "in_cart_html": "{{ quantity }} trong giỏ hàng",
+      "max_of": "Tối đa {{ quantity }}",
+      "maximum_of": "Tối đa {{ quantity }}",
+      "min_of": "Tối thiểu {{ quantity }}",
+      "minimum_of": "Tối thiểu {{ quantity }}",
+      "multiples_of": "Theo bội số của {{ quantity }}",
+      "note": "Xem quy tắc số lượng"
     },
     "inventory": {
       "in_stock": "Còn hàng, sẵn sàng để giao",
@@ -452,7 +496,13 @@
       "out_of_stock_continue_selling": "Còn hàng",
       "will_not_ship_until": "Sẵn sàng giao hàng vào {{ date }}",
       "will_be_in_stock_after": "Có hàng lại vào {{ date }}",
-      "waiting_for_stock": "Hàng trên đường về"
+      "waiting_for_stock": "Hàng trên đường về",
+      "in_stock_with_count": "Còn {{ count }} sản phẩm",
+      "low_stock": "Sắp hết hàng",
+      "low_stock_with_count": {
+        "one": "Nhanh lên, chỉ còn {{ count }} sản phẩm trong kho!",
+        "other": "Nhanh lên, chỉ còn {{ count }} sản phẩm trong kho!"
+      }
     },
     "pickup_availability": {
       "title": "Khả năng nhận hàng",
@@ -464,6 +514,30 @@
       "pick_up_unavailable_at_html": "Hiện chưa thể nhận hàng tại <span class=\"color-foreground\">{{ location_name }}</span>",
       "unavailable": "Không thể tải khả năng nhận hàng tại cửa hàng",
       "refresh": "Làm mới"
+    },
+    "back_in_stock": {
+      "form": {
+        "email": "Email",
+        "message": "Thông báo có hàng trở lại",
+        "name": "Tên",
+        "phone": "Số điện thoại",
+        "post_success": "Chúng tôi đã nhận được email của bạn.",
+        "send": "Thông báo cho tôi"
+      },
+      "label": "Thông báo cho tôi khi có hàng"
+    },
+    "price": {
+      "from_price_html": "<small>Từ</small> {{ price }}",
+      "regular_price": "Giá thông thường",
+      "sale_price": "Giá ưu đãi",
+      "unit_price": "Đơn giá"
+    },
+    "volume_pricing": {
+      "minimum": "{{ quantity }}+",
+      "note": "Có giá theo số lượng",
+      "price_at_each": "giá {{ price }}/sản phẩm",
+      "price_range": "{{ minimum }} - {{ maximum }}",
+      "title": "Giá theo số lượng"
     }
   },
   "gift_cards": {

@@ -78,7 +78,8 @@
         "snapchat": "Snapchat",
         "youtube": "YouTube",
         "vimeo": "Vimeo",
-        "tiktok": "TikTok"
+        "tiktok": "TikTok",
+        "linkedin": "LinkedIn"
       }
     },
     "newsletter": {
@@ -170,12 +171,43 @@
     "map": {
       "address_error": "Errore nella ricerca di questo indirizzo",
       "address_no_results": "Nessun risultato per questo indirizzo",
-      "address_query_limit_html": "Hai superato il limite di utilizzo delle API di Google. Considera l'aggiornamento ad un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Piano Premium<\/a>.",
-      "auth_error_html": "Si è verificato un problema durante l'autenticazione del tuo account Google Maps. Crea e attiva i permessi <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript API<\/a> e <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">Geocoding API<\/a> della tua applicazione."
+      "address_query_limit_html": "Hai superato il limite di utilizzo delle API di Google. Considera l'aggiornamento ad un <a href=\"https://developers.google.com/maps/premium/usage-limits\">Piano Premium</a>.",
+      "auth_error_html": "Si è verificato un problema durante l'autenticazione del tuo account Google Maps. Crea e attiva i permessi <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript API</a> e <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> della tua applicazione."
     },
     "slideshow": {
       "play_slideshow": "Avvia presentazione",
       "pause_slideshow": "Metti in pausa presentazione"
+    },
+    "product_bundle": {
+      "add_to_cart": "Aggiungi al carrello",
+      "discounts_at_checkout": "Gli sconti verranno applicati al checkout.",
+      "remove": "Rimuovi",
+      "total": "Totale"
+    },
+    "quick_order_list": {
+      "cancel": "Annulla",
+      "each": "{{ money }}/cad.",
+      "items_added": {
+        "one": "{{ quantity }} articolo aggiunto",
+        "other": "{{ quantity }} articoli aggiunti"
+      },
+      "items_removed": {
+        "one": "{{ quantity }} articolo rimosso",
+        "other": "{{ quantity }} articoli rimossi"
+      },
+      "max_error": "Questo articolo ha un massimo di {{ max }}",
+      "min_error": "Questo articolo ha un minimo di {{ min }}",
+      "product": "Prodotto",
+      "product_total": "Subtotale prodotto",
+      "product_variants": "Varianti del prodotto",
+      "remove_all": "Rimuovi tutto",
+      "remove_all_items_confirmation": "Rimuovere tutti i {{ quantity }} articoli dal carrello?",
+      "remove_all_single_item_confirmation": "Rimuovere 1 articolo dal carrello?",
+      "step_error": "Puoi aggiungere questo articolo solo in incrementi di {{ step }}",
+      "total_items": "Articoli totali",
+      "variant": "Variante",
+      "variant_total": "Totale variante",
+      "view_cart": "Visualizza carrello"
     }
   },
   "blogs": {
@@ -255,7 +287,9 @@
       "in_stock_only": "Solo prodotti disponibili",
       "clear": "Rimuovi filtro \"{{ name }}\"",
       "clear_all": "Rimuovi tutto",
-      "apply": "Applica"
+      "apply": "Applica",
+      "filter_hide_button": "Nascondi filtri",
+      "filter_show_button": "Mostra filtri"
     },
     "subcollections": {
       "all_products": "Tutti i {{ collection }}"
@@ -326,7 +360,8 @@
       "create_account": "Crea account",
       "return": "Torna al negozio",
       "guest_title": "Continua senza registrarti",
-      "guest_continue": "Continua"
+      "guest_continue": "Continua",
+      "alternate_provider_separator": "oppure"
     },
     "orders": {
       "title": "Cronologia ordini",
@@ -407,7 +442,8 @@
       "regular_price": "Prezzo di listino",
       "sale_price": "Prezzo scontato",
       "unit_price": "Prezzo unitario",
-      "from_text_html": "<small>Da<\/small> {{ price }}"
+      "from_text_html": "<small>Da</small> {{ price }}",
+      "show_more": "Mostra di più"
     },
     "product": {
       "product_variants": "Varianti di prodotto",
@@ -420,7 +456,7 @@
       "pre_order": "Pre-ordine",
       "vendor": "Fornitore",
       "include_taxes": "Imposte incluse.",
-      "shipping_policy_html": "<a href='{{ link }}'>Spedizione<\/a> calcolata alla cassa.",
+      "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
       "will_not_ship_until": "Pronto per la spedizione {{ date }}",
       "will_be_in_stock_after": "Di nuovo in magazzino {{ date }}",
       "waiting_for_stock": "Inventario in arrivo",
@@ -428,7 +464,8 @@
       "xr_button_label": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata",
       "read_more": "Visualizza tutti i dettagli",
       "quick_add": "Aggiungere",
-      "quick_view": "Visualizza"
+      "quick_view": "Visualizza",
+      "add_to_bundle": "Aggiungi al bundle"
     },
     "media": {
       "open_media": "Apri contenuti multimediali {{ index }} in finestra modale",
@@ -440,7 +477,14 @@
       "label": "Quantità",
       "input_label": "Quantità per {{ product }}",
       "increase": "Aumenta quantità per {{ product }}",
-      "decrease": "Diminuisci quantità per {{ product }}"
+      "decrease": "Diminuisci quantità per {{ product }}",
+      "in_cart_html": "{{ quantity }} nel carrello",
+      "max_of": "Max {{ quantity }}",
+      "maximum_of": "Massimo {{ quantity }}",
+      "min_of": "Min {{ quantity }}",
+      "minimum_of": "Minimo {{ quantity }}",
+      "multiples_of": "Incrementi di {{ quantity }}",
+      "note": "Visualizza regole di quantità"
     },
     "inventory": {
       "in_stock": "In magazzino, pronto per la spedizione",
@@ -452,7 +496,13 @@
       "out_of_stock_continue_selling": "Disponibile",
       "will_not_ship_until": "Pronto a spedire {{ date }}",
       "will_be_in_stock_after": "Di nuovo disponibile {{ date }}",
-      "waiting_for_stock": "Inventario in arrivo"
+      "waiting_for_stock": "Inventario in arrivo",
+      "in_stock_with_count": "{{ count }} disponibili",
+      "low_stock": "Scorte limitate",
+      "low_stock_with_count": {
+        "one": "Affrettati, è rimasto solo {{ count }} articolo in magazzino!",
+        "other": "Affrettati, sono rimasti solo {{ count }} articoli in magazzino!"
+      }
     },
     "pickup_availability": {
       "title": "Disponibilità di ritiro",
@@ -464,6 +514,30 @@
       "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso la sede <span class=\"color-foreground\">{{ location_name }}</span>",
       "unavailable": "Impossibile caricare la disponibilità di ritiro",
       "refresh": "Aggiorna"
+    },
+    "back_in_stock": {
+      "form": {
+        "email": "Email",
+        "message": "Avviso di nuova disponibilità",
+        "name": "Nome",
+        "phone": "Numero di telefono",
+        "post_success": "Abbiamo ricevuto la tua email.",
+        "send": "Avvisami"
+      },
+      "label": "Avvisami quando è disponibile"
+    },
+    "price": {
+      "from_price_html": "<small>Da</small> {{ price }}",
+      "regular_price": "Prezzo di listino",
+      "sale_price": "Prezzo scontato",
+      "unit_price": "Prezzo unitario"
+    },
+    "volume_pricing": {
+      "minimum": "{{ quantity }}+",
+      "note": "Prezzi a volume disponibili",
+      "price_at_each": "a {{ price }}/cad.",
+      "price_range": "{{ minimum }} - {{ maximum }}",
+      "title": "Prezzi a volume"
     }
   },
   "gift_cards": {
