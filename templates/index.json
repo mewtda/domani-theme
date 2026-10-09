@@ -1,1 +1,787 @@
-{"sections":{"slideshow_brdEjP":{"type":"slideshow","blocks":{"image_qKXAyi":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BANNERS_SITE_17.png","image_mobile":"shopify:\/\/shop_images\/BANNERS_SITE_17.png","heading":"New In: Linha Casual","heading_size":"title-lg tracking-heading","heading_tag":"h2","button_label":"shop now","button_link":"https:\/\/domaniactive.com\/collections\/linha-casual","button_external":false,"button_icon":false,"button_secondary_style":false}},"image_NWbHhc":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BANNERS_SITE_13.png","image_mobile":"shopify:\/\/shop_images\/Copia_de_SHOOTING_DOMANI_20_AGOSTO-439.jpg","heading":"&nbsp;Linha Essential: Verde Petróleo","heading_size":"title-lg tracking-heading","heading_tag":"h2","button_label":"shop now","button_link":"https:\/\/domaniactive.com\/collections\/verde-petroleo","button_external":true,"button_icon":false,"button_secondary_style":false}},"image_qEMVLm":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BANNERS_SITE_15.png","image_mobile":"shopify:\/\/shop_images\/Copia_de_SHOOTING_DOMANI_20_AGOSTO-385.jpg","heading":"Sherpa","heading_size":"title-lg tracking-heading","heading_tag":"h2","button_label":"shop now","button_link":"shopify:\/\/collections\/sherpa","button_external":true,"button_icon":false,"button_secondary_style":false}},"image_NdgnVW":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/foto_por_giovannashirassu-034.jpg","image_mobile":"shopify:\/\/shop_images\/foto_por_giovannashirassu-032.jpg","heading":"Linha Outdoor","heading_size":"title-xl tracking-heading","heading_tag":"h2","button_label":"Reposição em breve","button_link":"shopify:\/\/collections\/outdoor","button_external":false,"button_icon":false,"button_secondary_style":false}}},"block_order":["image_qKXAyi","image_NWbHhc","image_qEMVLm","image_NdgnVW"],"settings":{"content_position":"items-end justify-center","content_alignment":"text-center","autoplay":false,"autoplay_speed":6,"show_navigation":true,"image_height":"750px","content_width":"large","image_height_mobile":"500px","color_text":"#ffffff","color_background":"#f7fee7","gradient_background":"","color_button_text":"#ffffff","color_button_background":"#dc695f","color_button_gradient":"","color_overlay":"#171717","overlay_opacity":18,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true}},"featured_collection_kd8Ud4":{"type":"featured-collection","name":"Coleção: Últimos Lançamentos","settings":{"collection":"novidades","products":[],"product_limit":12,"columns":4,"carousel_on_desktop":true,"show_view_all":true,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Últimos Lançamentos","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"#fafafa","color_button_background":"{{ shop.brand.colors.secondary[0].background }}","color_button_gradient":"","padding_top":40,"padding_bottom":0,"divider":false,"full_width":true,"rounded":false}},"collection_list_UMLbY9":{"type":"collection-list","blocks":{"collection_qCAaUX":{"type":"collection","settings":{"collection":"sherpa","image":"shopify:\/\/shop_images\/DSC07971.jpg","title":"Sherpa","description":"Conforto, toque macio e versatilidade para acompanhar os dias frios.","overlay_content":true,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":5}},"collection_d38GQ6":{"type":"collection","settings":{"collection":"regata-alcinha","image":"shopify:\/\/shop_images\/Domani_31-03-26_59296.jpg","title":"Regata Alcinha","description":"Efeito segunda pele, toque macio e caimento leve para mais conforto e versatilidade.","overlay_content":true,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":5}}},"block_order":["collection_qCAaUX","collection_d38GQ6"],"custom_css":[".media-card--overlap .media-card__content {position: absolute; inset-block-end: 40%; align-items: center; text-align: center; justify-content: center;}",".media-card__text .heading {font-size: var(--text-h1) !important;}"],"settings":{"columns":2,"carousel_on_desktop":false,"image_type":"collection","image_ratio":"square","show_products_count":false,"show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"heading":"","heading_size":"title-sm","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":32,"padding_bottom":32,"divider":false,"full_width":true,"rounded":false}},"rich-text":{"type":"rich-text","blocks":{"text_FQUFXy":{"type":"text","settings":{"text":"<p>Nossas roupas são feitas para durar.<br\/> Investimos em tecnologia para oferecer <br\/>conforto térmico, antiodor, proteção <\/p><p>UV e matérias-primas conscientes.<\/p>","text_size":"subtext-custom","text_max_size":34,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"button_KPHJ3W":{"type":"button","settings":{"button_label":"Conheça nossa história","button_link":"shopify:\/\/pages\/sobre-nos","button_size":"md","button_secondary_style":false}}},"block_order":["text_FQUFXy","button_KPHJ3W"],"custom_css":["@media screen and (max-width: 767px) {:root {--subtext-size: 1.6875rem !important; line-height: 2.125rem; letter-spacing: -0.02312rem; }}"],"settings":{"text_alignment":"left","text_alignment_mobile":"left","heading":"","heading_size":"title-sm","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","highlighted_text":"scribble","highlighted_scribble":"basic-underline","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"#7d3c32","color_button_gradient":"","padding_top":40,"padding_bottom":40,"divider":false,"narrow":false,"rounded":false}},"featured_collection_ggxTeX":{"type":"featured-collection","name":"Featured collection: back in stock","settings":{"collection":"back-in-stock","products":[],"product_limit":12,"columns":4,"carousel_on_desktop":true,"show_view_all":true,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Back In Stock","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"Confira as peças que estão de volta","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"#764036","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}},"collection_list_c8W7hx":{"type":"collection-list","blocks":{"collection_64C49X":{"type":"collection","settings":{"collection":"verde-petroleo","title":"Verde Petroleo","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_TB8EyK":{"type":"collection","settings":{"collection":"cor-merlot","image":"shopify:\/\/shop_images\/DSC02389.jpg","title":"Merlot","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_EaRd8T":{"type":"collection","settings":{"collection":"cor-eucalipto","image":"shopify:\/\/shop_images\/Copia_de_DSC04682.jpg","title":"Eucalipto","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_cT8p8T":{"type":"collection","settings":{"collection":"green-week-off-white","image":"shopify:\/\/shop_images\/DOMANI_NEW_DROP_-176.jpg","title":"Off White","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_Q8Jdd9":{"type":"collection","settings":{"collection":"cor-preto","image":"shopify:\/\/shop_images\/DOMANI_NEW_DROP_-150.jpg","title":"Preto","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_NXf9FB":{"type":"collection","settings":{"collection":"green-week-cinza-chumbo","image":"shopify:\/\/shop_images\/SHOOTING_DOMANI_-_05_MARCO-027.jpg","title":"Cinza Chumbo","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_Hxfzmz":{"type":"collection","settings":{"collection":"platinum","image":"shopify:\/\/shop_images\/DOMANI_NEW_DROP_-194.jpg","title":"Platinum","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_KQUJ8C":{"type":"collection","settings":{"collection":"chilli","image":"shopify:\/\/shop_images\/DOMANI_NEW_DROP_-356.jpg","title":"Chilli","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_T4GNnD":{"type":"collection","settings":{"collection":"cor-azul-marinho","image":"shopify:\/\/shop_images\/DSC02412_1.jpg","title":"Azul Marinho","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_Mx9cPH":{"type":"collection","settings":{"collection":"green-week-cafe-torrado","image":"shopify:\/\/shop_images\/DOMANI_NEW_DROP_-106.jpg","title":"Café Torrado","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_6Ygwx7":{"type":"collection","settings":{"collection":"mauve","image":"shopify:\/\/shop_images\/foto_por_giovannashirassu-096_1_11d541d8-7855-4b62-89e2-09973fa5e23e.jpg","title":"Mauve","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}}},"block_order":["collection_64C49X","collection_TB8EyK","collection_EaRd8T","collection_cT8p8T","collection_Q8Jdd9","collection_NXf9FB","collection_Hxfzmz","collection_KQUJ8C","collection_T4GNnD","collection_Mx9cPH","collection_6Ygwx7"],"name":"Compre por Cor","settings":{"columns":4,"carousel_on_desktop":true,"image_type":"collection","image_ratio":"square","show_products_count":true,"show_view_all":false,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Compre por Cor","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"<p>Facilite sua busca e encontre as peças perfeitas em cada tonalidade.<\/p>","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}},"17224865936dd9bee3":{"type":"apps","blocks":{"tolstoy_shoppable_video_ugc_carousel_block_AJqBcB":{"type":"shopify:\/\/apps\/tolstoy-ads-image-video\/blocks\/carousel-block\/06fa8282-42ff-403e-b67c-1936776aed11","settings":{"publishId":"bq2i00jyj35pn"}}},"block_order":["tolstoy_shoppable_video_ugc_carousel_block_AJqBcB"],"disabled":true,"settings":{"enable_reviews_integration":false,"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":20,"padding_bottom":32,"divider":false,"full_width":true,"rounded":false}},"rich_text_XCtV9X":{"type":"rich-text","blocks":{"heading_cYFPYL":{"type":"heading","settings":{"heading":"Activewear minimalista e sustentável para usar sempre","heading_size":"title-sm","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["heading_cYFPYL"],"settings":{"text_alignment":"center","text_alignment_mobile":"center","heading":"","heading_size":"title-sm","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","highlighted_text":"scribble","highlighted_scribble":"basic-underline","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":40,"padding_bottom":0,"divider":false,"narrow":false,"rounded":false}},"image_with_text_FVKHiF":{"type":"image-with-text","blocks":{"image_ifPPCy":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo-actv.png","image_width":"custom","image_max_width":350,"image_max_width_mobile":200}},"text_VVLt7E":{"type":"text","settings":{"text":"<p>Faça parte da nossa comunidade exclusiva e tenha acesso antecipado a novidades, pré-lançamentos, aulas e ao desenvolvimento de novos produtos.<\/p>","text_size":"subtext-lg","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"button_eEJziw":{"type":"button","settings":{"button_label":"Quero fazer parte","button_link":"shopify:\/\/pages\/actv-club","button_size":"md","button_secondary_style":false}}},"block_order":["image_ifPPCy","text_VVLt7E","button_eEJziw"],"custom_css":[],"settings":{"image":"shopify:\/\/shop_images\/SUMMER_ILOVE1608_2.jpg","image_height":"750px","image_width":"medium","layout":"image_first","text_alignment":"left","image_height_mobile":"auto","text_alignment_mobile":"left","color_text":"#ffffff","color_background":"","gradient_background":"","color_background_2":"{{ shop.brand.colors.secondary[0].background }}","gradient_background_2":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":32,"padding_bottom":32,"divider":false,"full_width":true,"rounded":false,"enable_parallax":false,"parallax_direction":"zoom"}},"blog_posts_jhDw7k":{"type":"blog-posts","disabled":true,"settings":{"blog":"nossos-conteudos","post_limit":8,"columns":4,"carousel_on_desktop":true,"show_view_all":true,"columns_mobile":"1","swipe_on_mobile":true,"image_ratio":"landscape","show_tags":true,"show_date":false,"show_comments":false,"show_author":false,"show_excerpt":true,"heading":"Nossos conteúdos","heading_size":"title-sm","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":32,"padding_bottom":32,"divider":false,"full_width":true,"rounded":false}},"rich_text_6PXwKA":{"type":"rich-text","blocks":{"heading_EFxjJ8":{"type":"heading","settings":{"heading":"<a href=\"https:\/\/www.instagram.com\/domani.active\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/domani.active\/\">@domani.active<\/a>","heading_size":"title-sm","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["heading_EFxjJ8"],"settings":{"text_alignment":"center","text_alignment_mobile":"center","heading":"","heading_size":"title-sm","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":0,"divider":false,"narrow":false,"rounded":false}},"17184707894d308e8a":{"type":"apps","blocks":{"instafeed_app_block_cGpjra":{"type":"shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5","settings":{"title":"","title_color":"","title_size_v2":0,"alignment":"center","instafeed_margin_top":0,"instafeed_margin_bottom":0,"instafeed_margin_sides":0,"show_instagram_link":false,"link_alignment":"left","link_color":"#000000","background_color":"","feed_id":"","html_area":""}}},"block_order":["instafeed_app_block_cGpjra"],"settings":{"enable_reviews_integration":true,"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":16,"padding_bottom":32,"divider":false,"full_width":true,"rounded":false}}},"order":["slideshow_brdEjP","featured_collection_kd8Ud4","collection_list_UMLbY9","rich-text","featured_collection_ggxTeX","collection_list_c8W7hx","17224865936dd9bee3","rich_text_XCtV9X","image_with_text_FVKHiF","blog_posts_jhDw7k","rich_text_6PXwKA","17184707894d308e8a"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_brdEjP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_qKXAyi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNERS_SITE_17.png",
+            "image_mobile": "shopify://shop_images/BANNERS_SITE_17.png",
+            "heading": "New In: Linha Casual",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "shop now",
+            "button_link": "https://domaniactive.com/collections/linha-casual",
+            "link_whole_banner": false,
+            "button_external": false,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
+        "image_NWbHhc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNERS_SITE_13.png",
+            "image_mobile": "shopify://shop_images/Copia_de_SHOOTING_DOMANI_20_AGOSTO-439.jpg",
+            "heading": "&nbsp;Linha Essential: Verde Petróleo",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "shop now",
+            "button_link": "https://domaniactive.com/collections/verde-petroleo",
+            "link_whole_banner": false,
+            "button_external": true,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
+        "image_qEMVLm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNERS_SITE_15.png",
+            "image_mobile": "shopify://shop_images/Copia_de_SHOOTING_DOMANI_20_AGOSTO-385.jpg",
+            "heading": "Sherpa",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "shop now",
+            "button_link": "shopify://collections/sherpa",
+            "link_whole_banner": false,
+            "button_external": true,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
+        "image_NdgnVW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/foto_por_giovannashirassu-034.jpg",
+            "image_mobile": "shopify://shop_images/foto_por_giovannashirassu-032.jpg",
+            "heading": "Linha Outdoor",
+            "heading_size": "title-xl tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "Reposição em breve",
+            "button_link": "shopify://collections/outdoor",
+            "link_whole_banner": false,
+            "button_external": false,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "image_qKXAyi",
+        "image_NWbHhc",
+        "image_qEMVLm",
+        "image_NdgnVW"
+      ],
+      "settings": {
+        "content_position": "items-end justify-center",
+        "content_alignment": "text-center",
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "show_navigation": true,
+        "image_height": "750px",
+        "content_width": "large",
+        "image_height_mobile": "500px",
+        "color_text": "#ffffff",
+        "color_background": "#f7fee7",
+        "gradient_background": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#dc695f",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 18,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true
+      }
+    },
+    "featured_collection_kd8Ud4": {
+      "type": "featured-collection",
+      "name": "Coleção: Últimos Lançamentos",
+      "settings": {
+        "collection": "novidades",
+        "products": [],
+        "product_limit": 12,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Últimos Lançamentos",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#fafafa",
+        "color_button_background": "{{ shop.brand.colors.secondary[0].background }}",
+        "color_button_gradient": "",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "collection_list_UMLbY9": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_qCAaUX": {
+          "type": "collection",
+          "settings": {
+            "collection": "sherpa",
+            "image": "shopify://shop_images/DSC07971.jpg",
+            "title": "Sherpa",
+            "description": "Conforto, toque macio e versatilidade para acompanhar os dias frios.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "collection_d38GQ6": {
+          "type": "collection",
+          "settings": {
+            "collection": "regata-alcinha",
+            "image": "shopify://shop_images/Domani_31-03-26_59296.jpg",
+            "title": "Regata Alcinha",
+            "description": "Efeito segunda pele, toque macio e caimento leve para mais conforto e versatilidade.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "collection_qCAaUX",
+        "collection_d38GQ6"
+      ],
+      "custom_css": [
+        ".media-card--overlap .media-card__content {position: absolute; inset-block-end: 40%; align-items: center; text-align: center; justify-content: center;}",
+        ".media-card__text .heading {font-size: var(--text-h1) !important;}"
+      ],
+      "settings": {
+        "columns": 2,
+        "carousel_on_desktop": false,
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": false,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FQUFXy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nossas roupas são feitas para durar.<br/> Investimos em tecnologia para oferecer <br/>conforto térmico, antiodor, proteção </p><p>UV e matérias-primas conscientes.</p>",
+            "text_size": "subtext-custom",
+            "text_max_size": 34,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_KPHJ3W": {
+          "type": "button",
+          "settings": {
+            "button_label": "Conheça nossa história",
+            "button_link": "shopify://pages/sobre-nos",
+            "button_size": "md",
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "text_FQUFXy",
+        "button_KPHJ3W"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {:root {--subtext-size: 1.6875rem !important; line-height: 2.125rem; letter-spacing: -0.02312rem; }}"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "basic-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "#7d3c32",
+        "color_button_gradient": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "featured_collection_ggxTeX": {
+      "type": "featured-collection",
+      "name": "Featured collection: back in stock",
+      "settings": {
+        "collection": "back-in-stock",
+        "products": [],
+        "product_limit": 12,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Back In Stock",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "Confira as peças que estão de volta",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "#764036",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "collection_list_c8W7hx": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_64C49X": {
+          "type": "collection",
+          "settings": {
+            "collection": "verde-petroleo",
+            "title": "Verde Petroleo",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_TB8EyK": {
+          "type": "collection",
+          "settings": {
+            "collection": "cor-merlot",
+            "image": "shopify://shop_images/DSC02389.jpg",
+            "title": "Merlot",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_EaRd8T": {
+          "type": "collection",
+          "settings": {
+            "collection": "cor-eucalipto",
+            "image": "shopify://shop_images/Copia_de_DSC04682.jpg",
+            "title": "Eucalipto",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_cT8p8T": {
+          "type": "collection",
+          "settings": {
+            "collection": "green-week-off-white",
+            "image": "shopify://shop_images/DOMANI_NEW_DROP_-176.jpg",
+            "title": "Off White",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Q8Jdd9": {
+          "type": "collection",
+          "settings": {
+            "collection": "cor-preto",
+            "image": "shopify://shop_images/DOMANI_NEW_DROP_-150.jpg",
+            "title": "Preto",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_NXf9FB": {
+          "type": "collection",
+          "settings": {
+            "collection": "green-week-cinza-chumbo",
+            "image": "shopify://shop_images/SHOOTING_DOMANI_-_05_MARCO-027.jpg",
+            "title": "Cinza Chumbo",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Hxfzmz": {
+          "type": "collection",
+          "settings": {
+            "collection": "platinum",
+            "image": "shopify://shop_images/DOMANI_NEW_DROP_-194.jpg",
+            "title": "Platinum",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_KQUJ8C": {
+          "type": "collection",
+          "settings": {
+            "collection": "chilli",
+            "image": "shopify://shop_images/DOMANI_NEW_DROP_-356.jpg",
+            "title": "Chilli",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_T4GNnD": {
+          "type": "collection",
+          "settings": {
+            "collection": "cor-azul-marinho",
+            "image": "shopify://shop_images/DSC02412_1.jpg",
+            "title": "Azul Marinho",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Mx9cPH": {
+          "type": "collection",
+          "settings": {
+            "collection": "green-week-cafe-torrado",
+            "image": "shopify://shop_images/DOMANI_NEW_DROP_-106.jpg",
+            "title": "Café Torrado",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_6Ygwx7": {
+          "type": "collection",
+          "settings": {
+            "collection": "mauve",
+            "image": "shopify://shop_images/foto_por_giovannashirassu-096_1_11d541d8-7855-4b62-89e2-09973fa5e23e.jpg",
+            "title": "Mauve",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_64C49X",
+        "collection_TB8EyK",
+        "collection_EaRd8T",
+        "collection_cT8p8T",
+        "collection_Q8Jdd9",
+        "collection_NXf9FB",
+        "collection_Hxfzmz",
+        "collection_KQUJ8C",
+        "collection_T4GNnD",
+        "collection_Mx9cPH",
+        "collection_6Ygwx7"
+      ],
+      "name": "Compre por Cor",
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Compre por Cor",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Facilite sua busca e encontre as peças perfeitas em cada tonalidade.</p>",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "17224865936dd9bee3": {
+      "type": "apps",
+      "blocks": {
+        "tolstoy_shoppable_video_ugc_carousel_block_AJqBcB": {
+          "type": "shopify://apps/tolstoy-ads-image-video/blocks/carousel-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "bq2i00jyj35pn"
+          }
+        }
+      },
+      "block_order": [
+        "tolstoy_shoppable_video_ugc_carousel_block_AJqBcB"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_reviews_integration": false,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 20,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "rich_text_XCtV9X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cYFPYL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Activewear minimalista e sustentável para usar sempre",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cYFPYL"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "basic-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_FVKHiF": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_ifPPCy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo-actv.png",
+            "image_width": "custom",
+            "image_max_width": 350,
+            "image_max_width_mobile": 200
+          }
+        },
+        "text_VVLt7E": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Faça parte da nossa comunidade exclusiva e tenha acesso antecipado a novidades, pré-lançamentos, aulas e ao desenvolvimento de novos produtos.</p>",
+            "text_size": "subtext-lg",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_eEJziw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Quero fazer parte",
+            "button_link": "shopify://pages/actv-club",
+            "button_size": "md",
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "image_ifPPCy",
+        "text_VVLt7E",
+        "button_eEJziw"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/SUMMER_ILOVE1608_2.jpg",
+        "image_height": "750px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "{{ shop.brand.colors.secondary[0].background }}",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "zoom"
+      }
+    },
+    "blog_posts_jhDw7k": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "blog": "nossos-conteudos",
+        "post_limit": 8,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "landscape",
+        "show_tags": true,
+        "show_date": false,
+        "show_comments": false,
+        "show_author": false,
+        "show_excerpt": true,
+        "heading": "Nossos conteúdos",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "rich_text_6PXwKA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EFxjJ8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"https://www.instagram.com/domani.active/\" target=\"_blank\" title=\"https://www.instagram.com/domani.active/\">@domani.active</a>",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EFxjJ8"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "17184707894d308e8a": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_cGpjra": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_cGpjra"
+      ],
+      "settings": {
+        "enable_reviews_integration": true,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 16,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_brdEjP",
+    "featured_collection_kd8Ud4",
+    "collection_list_UMLbY9",
+    "rich-text",
+    "featured_collection_ggxTeX",
+    "collection_list_c8W7hx",
+    "17224865936dd9bee3",
+    "rich_text_XCtV9X",
+    "image_with_text_FVKHiF",
+    "blog_posts_jhDw7k",
+    "rich_text_6PXwKA",
+    "17184707894d308e8a"
+  ]
+}
