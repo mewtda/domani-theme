@@ -22,7 +22,7 @@
             "heading_tag": "h2",
             "button_label": "shop now",
             "button_link": "https://domaniactive.com/collections/linha-casual",
-            "link_whole_banner": false,
+            "link_whole_banner": true,
             "button_external": false,
             "button_icon": false,
             "button_secondary_style": false
@@ -38,7 +38,7 @@
             "heading_tag": "h2",
             "button_label": "shop now",
             "button_link": "https://domaniactive.com/collections/verde-petroleo",
-            "link_whole_banner": false,
+            "link_whole_banner": true,
             "button_external": true,
             "button_icon": false,
             "button_secondary_style": false
@@ -54,7 +54,7 @@
             "heading_tag": "h2",
             "button_label": "shop now",
             "button_link": "shopify://collections/sherpa",
-            "link_whole_banner": false,
+            "link_whole_banner": true,
             "button_external": true,
             "button_icon": false,
             "button_secondary_style": false
