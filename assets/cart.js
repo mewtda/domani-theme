@@ -275,6 +275,30 @@ class CartNote extends HTMLElement {
 }
 customElements.define('cart-note', CartNote);
 
+class GiftMessage extends HTMLElement {
+  constructor() {
+    super();
+
+    this.toggle = this.querySelector('input[type="checkbox"]');
+    this.field = this.querySelector('cart-note');
+    this.textarea = this.field.querySelector('textarea');
+    this.toggle.addEventListener('change', this.onToggle.bind(this));
+  }
+
+  onToggle() {
+    this.field.hidden = !this.toggle.checked;
+
+    if (this.toggle.checked) {
+      this.textarea.focus();
+    }
+    else if (this.textarea.value !== '') {
+      this.textarea.value = '';
+      this.textarea.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+  }
+}
+customElements.define('gift-message', GiftMessage);
+
 class MainCart extends HTMLElement {
   constructor() {
     super();

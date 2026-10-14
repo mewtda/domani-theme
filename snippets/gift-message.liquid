@@ -1,0 +1,36 @@
+{%- comment -%}
+  Renders the cart gift message (saved as the cart note)
+
+  Accepts:
+  - section_id: {String} The ID of the section.
+
+  Usage:
+  {% render 'gift-message', section_id: section.id %}
+{%- endcomment -%}
+
+<gift-message class="gift-message grid">
+  <div class="flex items-center gap-3">
+    <input
+      type="checkbox"
+      class="switch shrink-0"
+      id="GiftMessageToggle-{{ section_id }}"
+      aria-controls="GiftMessageField-{{ section_id }}"
+      {%- if cart.note != blank %} checked{% endif -%}
+    />
+    <label for="GiftMessageToggle-{{ section_id }}" class="cursor-pointer">
+      <span class="block text-sm md:text-base font-medium leading-tight">É para presente?</span>
+      <span class="gift-message__caption block text-xs leading-tight">Adicione um bilhete — ele vai junto com o pedido.</span>
+    </label>
+  </div>
+  <cart-note class="gift-message__field field" id="GiftMessageField-{{ section_id }}"{% if cart.note == blank %} hidden{% endif %}>
+    <textarea
+      class="textarea is-floating"
+      name="note"
+      rows="3"
+      maxlength="250"
+      id="GiftMessageNote-{{ section_id }}"
+      placeholder=" "
+    >{{ cart.note }}</textarea>
+    <label class="label is-floating" for="GiftMessageNote-{{ section_id }}">Escreva sua mensagem</label>
+  </cart-note>
+</gift-message>

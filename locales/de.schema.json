@@ -1689,6 +1689,15 @@
             "header__promo_5": {
               "content": "Beförderung Nr. 5"
             },
+            "header__promo_6": {
+              "content": "Beförderung Nr. 6"
+            },
+            "header__promo_7": {
+              "content": "Beförderung Nr. 7"
+            },
+            "header__promo_8": {
+              "content": "Beförderung Nr. 8"
+            },
             "promo_image": {
               "label": "Bild"
             },

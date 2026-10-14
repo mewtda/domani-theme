@@ -32,15 +32,18 @@
       {%- if enable_mega_menu -%}
         {%- liquid
           assign show_promotions = false
-          if block.settings.promo_image_1 != blank or block.settings.promo_image_2 != blank or block.settings.promo_image_3 != blank or block.settings.promo_image_4 != blank or block.settings.promo_image_5 != blank
-            assign show_promotions = true
-          endif
+          for i in (1..8)
+            assign promo_image = 'promo_image_' | append: i
+            if block.settings[promo_image] != blank
+              assign show_promotions = true
+            endif
+          endfor
         -%}
       {%- endif -%}
       {%- if show_promotions -%}
         <li class="drawer__promotions">
           <ul class="mega-menu__list grid grid-cols-2 w-full h-full" role="list" tabindex="-1">
-            {%- for i in (1..5) -%}
+            {%- for i in (1..8) -%}
               {%- liquid
                 assign promo_image = 'promo_image_' | append: i
                 assign promo_image = block.settings[promo_image]

@@ -456,6 +456,8 @@
                 items_in_cart: items_in_cart,
               -%}
 
+              {%- render 'gift-message', section_id: section.id -%}
+
               {%- if cart != empty and section.settings.cart_recommendations_enabled -%}
                 {%- liquid
                   assign first_product_id = cart.items.first.product_id
@@ -479,48 +481,6 @@
               {%- endif -%}
             </div>
             <div class="drawer__footer grid w-full{% if cart == empty %} hidden{% endif %}">
-              {%- comment -%} Mensagem de presente {%- endcomment -%}
-<div class="drawer__gift-message px-5 py-4" style="border-top: 1px solid rgba(var(--color-foreground), 0.1);">
-  <label class="flex items-center gap-3 cursor-pointer" for="GiftMessageToggle-{{ section.id }}">
-    <input
-      type="checkbox"
-      id="GiftMessageToggle-{{ section.id }}"
-      class="checkbox"
-      {% if cart.note != blank %}checked{% endif %}
-    >
-    <span class="text-sm font-medium">🎁 É para presente? Adicione uma mensagem</span>
-  </label>
-  <div id="GiftMessageField-{{ section.id }}" class="mt-3 field" {% if cart.note == blank %}hidden{% endif %}>
-    <cart-note>
-      <textarea
-        name="note"
-        id="CartGiftNote-{{ section.id }}"
-        class="textarea is-floating"
-        rows="3"
-        placeholder=" "
-      >{{ cart.note }}</textarea>
-      <label class="label is-floating" for="CartGiftNote-{{ section.id }}">Sua mensagem de presente...</label>
-    </cart-note>
-  </div>
-  <script>
-    (function() {
-      var toggle = document.getElementById('GiftMessageToggle-{{ section.id }}');
-      var field = document.getElementById('GiftMessageField-{{ section.id }}');
-      if (toggle && field) {
-        toggle.addEventListener('change', function() {
-          field.hidden = !this.checked;
-          if (!this.checked) {
-            var textarea = field.querySelector('textarea');
-            if (textarea) {
-              textarea.value = '';
-              textarea.dispatchEvent(new Event('change'));
-            }
-          }
-        });
-      }
-    })();
-  </script>
-</div>
               {%- if section.settings.show_cart_note or section.settings.show_shipping_calculator -%}
                 <div class="drawer__footer-top flex">
                   {%- if section.settings.show_cart_note -%}

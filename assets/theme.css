@@ -6460,6 +6460,23 @@ html.touch .has-modal-open {
   visibility: hidden;
 }
 
+/* GIFT MESSAGE */
+.gift-message {
+  gap: var(--sp-4);
+  padding: var(--sp-4);
+  border-radius: var(--rounded-xxs);
+  background: white;
+}
+
+.gift-message__caption {
+  margin-block-start: var(--sp-1);
+  color: rgb(var(--color-foreground)/ 0.6);
+}
+
+.gift-message__field[hidden] {
+  display: none;
+}
+
 /* FREE SHIPPING BAR */
 [data-rounded-block=square] .free-shipping-bar progress-bar {
   border-radius: 0;
@@ -7232,6 +7249,36 @@ details.active .drawer__promotions .mega-menu__item,
 
 .mega-menu__item:nth-child(5) .media-card__text {
   transition-delay: .85s
+}
+
+.mega-menu__item:nth-child(6) {
+  transition-delay: .8s
+}
+
+.mega-menu__item:nth-child(6) .media-card__text {
+  transition-delay: .95s
+}
+
+.mega-menu__item:nth-child(7) {
+  transition-delay: .9s
+}
+
+.mega-menu__item:nth-child(7) .media-card__text {
+  transition-delay: 1.05s
+}
+
+.mega-menu__item:nth-child(8) {
+  transition-delay: 1s
+}
+
+.mega-menu__item:nth-child(8) .media-card__text {
+  transition-delay: 1.15s
+}
+
+/* More than 5 promotions: keep them all on a single row */
+.mega-menu__list--many .mega-menu__item {
+  flex: 0 0 calc((100% - var(--header-nav-gap) * (var(--promo-columns) - 1)) / var(--promo-columns));
+  max-width: calc((100% - var(--header-nav-gap) * (var(--promo-columns) - 1)) / var(--promo-columns));
 }
 
 .media-card {

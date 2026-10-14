@@ -1689,6 +1689,15 @@
             "header__promo_5": {
               "content": "Promotion n° 5"
             },
+            "header__promo_6": {
+              "content": "Promotion n° 6"
+            },
+            "header__promo_7": {
+              "content": "Promotion n° 7"
+            },
+            "header__promo_8": {
+              "content": "Promotion n° 8"
+            },
             "promo_image": {
               "label": "Image"
             },

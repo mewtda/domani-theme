@@ -1,12 +1,17 @@
 {%- liquid
   assign show_promotions = false
-  if block.settings.promo_image_1 != blank or block.settings.promo_image_2 != blank or block.settings.promo_image_3 != blank or block.settings.promo_image_4 != blank or block.settings.promo_image_5 != blank
-    assign show_promotions = true
-  endif
+  assign promo_count = 0
+  for i in (1..8)
+    assign promo_image = 'promo_image_' | append: i
+    if block.settings[promo_image] != blank
+      assign show_promotions = true
+      assign promo_count = promo_count | plus: 1
+    endif
+  endfor
 -%}
 
 <div class="mega-menu__container">
-  <ul class="mega-menu__list page-width{% if full_width %} page-width--full{% endif %} flex flex-wrap w-full h-full overflow-hidden" role="list" tabindex="-1">
+  <ul class="mega-menu__list page-width{% if full_width %} page-width--full{% endif %}{% if promo_count > 5 and link.links == blank %} mega-menu__list--many{% endif %} flex flex-wrap w-full h-full overflow-hidden" role="list" tabindex="-1"{% if promo_count > 5 and link.links == blank %} style="--promo-columns: {{ promo_count }};"{% endif %}>
     {%- if link.links != blank -%}
       <li class="mega-menu__item mega-menu__item--nav{% unless show_promotions %} mega-menu__item--full{% endunless %} opacity-0 w-full grid">
         <ul class="mega-menu__nav{% if link.links.size > 6 %} mega-menu__nav--more{% endif %}{% if show_promotions %} grid{% else %} flex flex-wrap{% endif %}">
@@ -46,7 +51,7 @@
     {%- endif -%}
 
     {%- if show_promotions -%}
-      {%- for i in (1..5) -%}
+      {%- for i in (1..8) -%}
         {%- liquid
           assign promo_image = 'promo_image_' | append: i
           assign promo_image = block.settings[promo_image]
