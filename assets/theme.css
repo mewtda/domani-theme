@@ -4112,6 +4112,17 @@ input[type=checkbox].switch {
   width: 38px
 }
 
+/* Off state: light track with a visible knob, so it reads as a toggle */
+input[type=checkbox].switch:not(:checked) {
+  background-color: rgb(var(--color-foreground)/ 0.12);
+  border-color: rgb(var(--color-foreground)/ 0.25);
+  opacity: 1;
+}
+
+input[type=checkbox].switch:checked {
+  opacity: 1;
+}
+
 input[type=checkbox].switch:after {
   background: var(--ab, var(--border));
   border-radius: 50%;
@@ -4125,6 +4136,11 @@ input[type=checkbox].switch:after {
 input[type=checkbox].switch:checked {
   --ab: var(--active-inner);
   --x: 17px;
+}
+
+input[type=checkbox].switch:not(:checked):after {
+  background: rgb(var(--color-background));
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
 }
 
 input[type=checkbox].switch:is(:disabled, .disabled):not(:checked):after {
@@ -8697,6 +8713,31 @@ html.touch .logo-list--right .logo-bar.animate {
   padding-block-end: 0;
 }
 
+.facet-drawer .facet-form .details {
+  border-block-end: 1px solid rgb(var(--color-border));
+}
+
+.facet-drawer .facet-form .details:last-child {
+  border-block-end-width: 0;
+}
+
+.facet-drawer .facet-form .details__summary {
+  padding-block: var(--sp-5);
+}
+
+.facet-drawer .facet-form .details:first-child .details__summary,
+.facet-drawer .facet-form .details[hidden]+.details .details__summary {
+  padding-block-start: var(--sp-2);
+}
+
+.facet-drawer .facet-form .details__content:after {
+  padding-block-end: var(--sp-5);
+}
+
+.facet-drawer .facet-form .details__content .list {
+  gap: var(--sp-3);
+}
+
 .facet-drawer facet-count:before {
   content: '(';
 }
@@ -9639,6 +9680,24 @@ html.touch .logo-list--right .logo-bar.animate {
   .quick-add .button:not([disabled]) {
     padding: 0;
     width: var(--sp-10);
+  }
+
+  /* Mobile: only the bag icon, no button background */
+  .quick-add .button:not([disabled]),
+  .quick-add .button:not([disabled]):hover {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: rgb(var(--color-button-background));
+  }
+
+  .quick-add .button:not([disabled]) .btn-fill {
+    display: none;
+  }
+
+  .quick-add .button:not([disabled]) .icon {
+    width: var(--sp-6);
+    height: var(--sp-6);
   }
 }
 
