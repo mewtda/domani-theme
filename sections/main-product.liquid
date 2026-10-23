@@ -28,6 +28,24 @@
       }
     }
   {%- endif -%}
+
+  .product-model-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .product-model-info__image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .product-model-info__text {
+    margin: 0;
+  }
 </style>
 
 {%- liquid
@@ -403,6 +421,14 @@
               -%}
 
             {%- when 'buy_buttons' -%}
+              {%- assign modelo_tamanho = product.metafields.custom.modelo_tamanho_ | metafield_text -%}
+              {%- assign modelo_imagem = product.metafields.custom.modelo_imagem_.value -%}
+              {%- if modelo_tamanho != blank and modelo_imagem -%}
+                <div class="product-model-info">
+                  {{- modelo_imagem | image_url: width: 120, height: 120, crop: 'center' | image_tag: class: 'product-model-info__image', loading: 'lazy', width: 48, height: 48, alt: modelo_tamanho -}}
+                  <p class="product-model-info__text">{{ modelo_tamanho }}</p>
+                </div>
+              {%- endif -%}
               {%- render 'buy-buttons',
                 block: block,
                 product: product,
