@@ -12,6 +12,22 @@
     "slideshow_brdEjP": {
       "type": "slideshow",
       "blocks": {
+        "image_NWbHhc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA3C15C9-43F4-4EC2-9423-65E4A9F92CF1.jpg",
+            "image_mobile": "shopify://shop_images/F36699E2-4510-4426-9FA5-7D342B6B0860.jpg",
+            "heading": "Coming Soon: Linha Club",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "06/11",
+            "button_link": "shopify://collections/linha-club",
+            "link_whole_banner": true,
+            "button_external": true,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
         "image_qEMVLm": {
           "type": "image",
           "settings": {
@@ -33,29 +49,13 @@
           "settings": {
             "image": "shopify://shop_images/BANNERS_SITE_17.png",
             "image_mobile": "shopify://shop_images/Domani18-08-2699189-retouched_bc244673-c74f-4614-b904-3dd095852e47.jpg",
-            "heading": "New In: Linha Casual",
+            "heading": "Linha Casual",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "button_label": "shop now",
             "button_link": "https://domaniactive.com/collections/linha-casual",
             "link_whole_banner": true,
             "button_external": false,
-            "button_icon": false,
-            "button_secondary_style": false
-          }
-        },
-        "image_NWbHhc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BANNERS_SITE_13.png",
-            "image_mobile": "shopify://shop_images/Copia_de_SHOOTING_DOMANI_20_AGOSTO-439.jpg",
-            "heading": "&nbsp;Linha Essential: Verde Petróleo",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "button_label": "shop now",
-            "button_link": "https://domaniactive.com/collections/verde-petroleo",
-            "link_whole_banner": true,
-            "button_external": true,
             "button_icon": false,
             "button_secondary_style": false
           }
@@ -79,9 +79,9 @@
         }
       },
       "block_order": [
+        "image_NWbHhc",
         "image_qEMVLm",
         "image_qKXAyi",
-        "image_NWbHhc",
         "image_NdgnVW"
       ],
       "settings": {
@@ -503,7 +503,7 @@
       "type": "apps",
       "blocks": {
         "tolstoy_shoppable_video_ugc_carousel_block_AJqBcB": {
-          "type": "shopify://apps/tolstoy-ads-image-video/blocks/carousel-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "type": "shopify://apps/tolstoy/blocks/carousel-block/06fa8282-42ff-403e-b67c-1936776aed11",
           "settings": {
             "publishId": "bq2i00jyj35pn"
           }
