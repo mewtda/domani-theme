@@ -17,10 +17,10 @@
           "settings": {
             "image": "shopify://shop_images/AA3C15C9-43F4-4EC2-9423-65E4A9F92CF1.jpg",
             "image_mobile": "shopify://shop_images/F36699E2-4510-4426-9FA5-7D342B6B0860.jpg",
-            "heading": "Coming Soon: Linha Club",
+            "heading": "New In: Linha Club",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
-            "button_label": "06/11",
+            "button_label": "shop now",
             "button_link": "shopify://collections/linha-club",
             "link_whole_banner": true,
             "button_external": true,
