@@ -514,7 +514,7 @@
             "promo_color_overlay_5": "#000000",
             "promo_overlay_opacity_5": 10,
             "promo_image_6": "shopify://shop_images/FD7E2878-22F4-4D88-B039-12EBFA1B260C.jpg",
-            "promo_image_ratio_6": "adapt",
+            "promo_image_ratio_6": "square",
             "promo_heading_6": "Linha Club",
             "promo_subtext_6": "",
             "promo_overlay_content_6": true,
