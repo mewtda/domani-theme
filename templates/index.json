@@ -148,10 +148,10 @@
         "collection_qCAaUX": {
           "type": "collection",
           "settings": {
-            "collection": "sherpa",
-            "image": "shopify://shop_images/DSC07971.jpg",
-            "title": "Sherpa",
-            "description": "Conforto, toque macio e versatilidade para acompanhar os dias frios.",
+            "collection": "linha-casual",
+            "image": "shopify://shop_images/SHOOTING_DOMANI_20_AGOSTO-762.jpg",
+            "title": "Linha Casual",
+            "description": "Desenvolvida em Modal, nossa linha Casual combina toque extremamente macio, conforto e versatilidade para acompanhar todos os momentos do dia.",
             "overlay_content": true,
             "color_text": "#ffffff",
             "color_overlay": "#000000",
@@ -161,10 +161,10 @@
         "collection_d38GQ6": {
           "type": "collection",
           "settings": {
-            "collection": "regata-alcinha",
-            "image": "shopify://shop_images/Domani_31-03-26_59296.jpg",
-            "title": "Regata Alcinha",
-            "description": "Efeito segunda pele, toque macio e caimento leve para mais conforto e versatilidade.",
+            "collection": "by-gabriela-diniz",
+            "image": "shopify://shop_images/bemfica_domani_gabrieladiniz-4_2.jpg",
+            "title": "Collab Domani x Gabriela Diniz",
+            "description": "Inspirada nos anos 80, resgatando cores marcantes, sobreposições e combinações icônicas em uma releitura contemporânea.",
             "overlay_content": true,
             "color_text": "#ffffff",
             "color_overlay": "#000000",
