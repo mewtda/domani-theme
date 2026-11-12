@@ -526,17 +526,24 @@
       transition: background-color 0.3s ease;
     }
     .product-card__slider-dot.is-active { background-color: rgb(var(--color-foreground)); }
-    @media screen and (min-width: 768px) {
-      /* No desktop o painel de variantes aparece embaixo no hover */
-      .product-card:hover .product-card__slider-dots { opacity: 0; }
-    }
   </style>
 
   <script>
     if (!customElements.get('card-slider')) {
       customElements.define('card-slider', class extends HTMLElement {
         connectedCallback() {
+          // Nos cards seguintes o elemento conecta antes dos filhos serem lidos: espera o DOM
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => this.init(), { once: true });
+          } else {
+            this.init();
+          }
+        }
+        init() {
+          if (this.ready) return;
           this.track = this.querySelector('[data-track]');
+          if (!this.track) return;
+          this.ready = true;
           this.slides = this.track.children;
           this.dots = this.querySelectorAll('.product-card__slider-dot');
           this.prev = this.querySelector('[data-prev]');

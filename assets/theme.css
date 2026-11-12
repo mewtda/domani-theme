@@ -9478,10 +9478,9 @@ html.touch .logo-list--right .logo-bar.animate {
   transform: translateY(0);
 }
 
-@media screen and (max-width: 767px) {
-  .product-variants-card {
-    display: none !important;
-  }
+/* Painel de tamanhos desligado em todas as telas (desktop igual ao mobile) */
+.product-variants-card {
+  display: none !important;
 }
 
 .variant-option {
@@ -9703,18 +9702,6 @@ html.touch .logo-list--right .logo-bar.animate {
 .quick-add .button:not([disabled]) .icon {
   width: var(--sp-6);
   height: var(--sp-6);
-}
-
-/* Desktop: esconde o quick add quando os tamanhos sobem no hover */
-@media screen and (min-width: 768px) {
-  .product-card:hover:has(.variant-options) .quick-add {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .product-card:hover:has(.variant-options) .quick-add .button {
-    pointer-events: none;
-  }
 }
 
 @media screen and (pointer: fine) {
