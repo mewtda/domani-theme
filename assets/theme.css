@@ -9464,13 +9464,17 @@ html.touch .logo-list--right .logo-bar.animate {
 
 .product-variants-card {
   opacity: 0;
+  visibility: hidden;
   transform: translateY(100%);
-  transition: opacity var(--animation-smooth), transform var(--animation-smooth);
+  transition: opacity var(--animation-smooth), transform var(--animation-smooth), visibility var(--animation-smooth);
   z-index: 3;
+  /* O painel não bloqueia cliques; só os botões de tamanho são clicáveis */
+  pointer-events: none;
 }
 
 .product-card:hover .product-variants-card {
   opacity: 1;
+  visibility: visible;
   transform: translateY(0);
 }
 
