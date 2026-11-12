@@ -103,36 +103,7 @@
           if show_secondary_image and second_media != blank
             assign has_hover_image = true
           endif
-
-          assign card_images = product.media | where: 'media_type', 'image'
-          assign use_card_slider = false
-          if featured_media.media_type == 'image' and card_images.size > 1
-            assign use_card_slider = true
-          endif
         -%}
-        {%- if use_card_slider -%}
-          {%- comment -%} Carrossel com todas as fotos do produto no card {%- endcomment -%}
-          <card-slider class="product-card__slider block relative overflow-hidden">
-            <div class="product-card__slider-track" data-track>
-              {%- for image in card_images -%}
-                <a class="product-card__slide product-card__media-link block relative media media--{{ image_ratio }}{% unless image_fill %} media--contain{% endunless %} overflow-hidden" href="{{ product_url }}" aria-label="{{ product.title | escape }} - {{ forloop.index }}/{{ card_images.size }}" tabindex="-1">
-                  {{- image | image_url: width: image.width | image_tag: loading: 'lazy', widths: '180,360,540,720,900,1080', is: 'lazy-image', class: 'product-card__image' -}}
-                </a>
-              {%- endfor -%}
-            </div>
-            <button type="button" class="product-card__slider-btn product-card__slider-btn--prev" data-prev aria-label="Foto anterior">
-              {%- render 'icon', icon: 'chevron-left', size: 'sm' -%}
-            </button>
-            <button type="button" class="product-card__slider-btn product-card__slider-btn--next" data-next aria-label="Próxima foto">
-              {%- render 'icon', icon: 'chevron-right', size: 'sm' -%}
-            </button>
-            <div class="product-card__slider-dots" aria-hidden="true">
-              {%- for image in card_images -%}
-                <span class="product-card__slider-dot{% if forloop.first %} is-active{% endif %}"></span>
-              {%- endfor -%}
-            </div>
-          </card-slider>
-        {%- else -%}
         <a class="product-card__media-link block relative media media--{{ image_ratio }}{% unless image_fill %} media--contain{% endunless %}{% if has_hover_image %} product-card__media-link--hover{% endif %} overflow-hidden" href="{{ product_url }}" aria-label="{{ product.title | escape }}" tabindex="-1">
           {% unless featured_media.media_type == 'video' or featured_media.media_type == 'external_video' %}
             {%- comment -%} Primeira foto: sempre visível, renderizada direto no .media (igual ao tema) {%- endcomment -%}
@@ -153,7 +124,6 @@
             %}
           {% endunless %}
         </a>
-        {%- endif -%}
 
         {%- comment -%} Transição entre foto principal e secundária no hover {%- endcomment -%}
         <style>
@@ -217,11 +187,11 @@
                       assign quick_add_label = 'products.product.pre_order' | t
                     endif
                   -%}
-                  <button type="submit" class="button button--primary pointer-events-auto" is="hover-button" data-variant-id="{{ product.selected_or_first_available_variant.id }}" aria-label="{{ quick_add_label | escape }}">
+                  <button type="submit" class="button button--primary pointer-events-auto md:opacity-0" is="hover-button" data-variant-id="{{ product.selected_or_first_available_variant.id }}" aria-label="{{ quick_add_label | escape }}">
                     <span class="btn-fill" data-fill></span>
                     <span class="btn-text">
-                      {%- render 'icon', icon: 'cart', size: 'sm' -%}
-                      <span class="hidden" data-sold-out="{{ 'products.product.sold_out' | t | escape }}">
+                      {%- render 'icon', icon: 'cart', size: 'sm', class: 'md:hidden' -%}
+                      <span class="hidden md:block" data-sold-out="{{ 'products.product.sold_out' | t | escape }}">
                         {{- quick_add_label -}}
                       </span>
                     </span>
@@ -229,21 +199,21 @@
                 {%- endform -%}
               {%- else -%}
                 {%- if show_quick_view -%}
-                  <button type="button" class="button button--primary pointer-events-auto" is="hover-button" aria-controls="Quickview-{{ section_id }}-{{ product.id }}" aria-expanded="false" aria-label="{{ 'products.product.choose_options' | t | escape }}">
+                  <button type="button" class="button button--primary pointer-events-auto md:opacity-0" is="hover-button" aria-controls="Quickview-{{ section_id }}-{{ product.id }}" aria-expanded="false" aria-label="{{ 'products.product.choose_options' | t | escape }}">
                     <span class="btn-fill" data-fill></span>
                     <span class="btn-text">
-                      {%- render 'icon', icon: 'cart', size: 'sm' -%}
-                      <span class="hidden">
+                      {%- render 'icon', icon: 'cart', size: 'sm', class: 'md:hidden' -%}
+                      <span class="hidden md:block">
                         {{- 'products.product.choose_options' | t -}}
                       </span>
                     </span>
                   </button>
                 {%- else -%}
-                  <a href="{{ product_url }}" class="button button--primary pointer-events-auto" is="hover-link" aria-label="{{ 'products.product.view_product' | t | escape }}">
+                  <a href="{{ product_url }}" class="button button--primary pointer-events-auto md:opacity-0" is="hover-link" aria-label="{{ 'products.product.view_product' | t | escape }}">
                     <span class="btn-fill" data-fill></span>
                     <span class="btn-text">
-                      {%- render 'icon', icon: 'cart', size: 'sm' -%}
-                      <span class="hidden">
+                      {%- render 'icon', icon: 'cart', size: 'sm', class: 'md:hidden' -%}
+                      <span class="hidden md:block">
                         {{- 'products.product.view_product' | t -}}
                       </span>
                     </span>
@@ -466,114 +436,7 @@
         opacity: 1;
       }
     }
-
-    /* Carrossel de fotos no card */
-    .product-card__slider-track {
-      display: flex;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      scroll-behavior: smooth;
-      scrollbar-width: none;
-      -webkit-overflow-scrolling: touch;
-      overscroll-behavior-x: contain;
-    }
-    .product-card__slider-track::-webkit-scrollbar { display: none; }
-    .product-card__slide {
-      flex: 0 0 100%;
-      scroll-snap-align: start;
-      scroll-snap-stop: always;
-    }
-    .product-card__slide > img { width: 100%; }
-    .product-card__slider-btn {
-      position: absolute;
-      top: 50%;
-      z-index: 4;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 2.25rem;
-      height: 2.25rem;
-      border-radius: 9999px;
-      background-color: rgb(var(--color-background) / 0.85);
-      color: rgb(var(--color-foreground));
-      transform: translateY(-50%);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      cursor: pointer;
-    }
-    .product-card__slider-btn--prev { left: 0.75rem; }
-    .product-card__slider-btn--next { right: 0.75rem; }
-    .product-card__slider-btn[disabled] { opacity: 0 !important; pointer-events: none; }
-    @media (hover: hover) {
-      .product-card:hover .product-card__slider-btn { opacity: 1; }
-    }
-    .product-card__slider-dots {
-      position: absolute;
-      left: 50%;
-      bottom: 0.75rem;
-      z-index: 2;
-      display: flex;
-      gap: 0.375rem;
-      transform: translateX(-50%);
-      pointer-events: none;
-      transition: opacity 0.3s ease;
-    }
-    .product-card__slider-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 9999px;
-      background-color: rgb(var(--color-foreground) / 0.3);
-      transition: background-color 0.3s ease;
-    }
-    .product-card__slider-dot.is-active { background-color: rgb(var(--color-foreground)); }
   </style>
-
-  <script>
-    if (!customElements.get('card-slider')) {
-      customElements.define('card-slider', class extends HTMLElement {
-        connectedCallback() {
-          // Nos cards seguintes o elemento conecta antes dos filhos serem lidos: espera o DOM
-          if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => this.init(), { once: true });
-          } else {
-            this.init();
-          }
-        }
-        init() {
-          if (this.ready) return;
-          this.track = this.querySelector('[data-track]');
-          if (!this.track) return;
-          this.ready = true;
-          this.slides = this.track.children;
-          this.dots = this.querySelectorAll('.product-card__slider-dot');
-          this.prev = this.querySelector('[data-prev]');
-          this.next = this.querySelector('[data-next]');
-          this.prev.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); this.go(-1); });
-          this.next.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); this.go(1); });
-          this.track.addEventListener('scroll', () => {
-            cancelAnimationFrame(this.raf);
-            this.raf = requestAnimationFrame(() => this.update());
-          }, { passive: true });
-          this.update();
-        }
-        get index() {
-          const w = this.track.clientWidth || 1;
-          return Math.round(Math.abs(this.track.scrollLeft) / w);
-        }
-        go(step) {
-          const target = Math.max(0, Math.min(this.slides.length - 1, this.index + step));
-          const dir = getComputedStyle(this).direction === 'rtl' ? -1 : 1;
-          this.track.scrollTo({ left: target * this.track.clientWidth * dir });
-        }
-        update() {
-          const i = this.index;
-          this.dots.forEach((d, n) => d.classList.toggle('is-active', n === i));
-          this.prev.disabled = i <= 0;
-          this.next.disabled = i >= this.slides.length - 1;
-        }
-      });
-    }
-  </script>
 {%- else -%}
   {%- render 'product-card-placeholder', placeholder: 'image', image_ratio: image_ratio, text_alignment: text_alignment, show_vendor: show_vendor, show_rating: show_rating -%}
 {%- endif -%}

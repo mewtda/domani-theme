@@ -9464,23 +9464,20 @@ html.touch .logo-list--right .logo-bar.animate {
 
 .product-variants-card {
   opacity: 0;
-  visibility: hidden;
   transform: translateY(100%);
-  transition: opacity var(--animation-smooth), transform var(--animation-smooth), visibility var(--animation-smooth);
+  transition: opacity var(--animation-smooth), transform var(--animation-smooth);
   z-index: 3;
-  /* O painel não bloqueia cliques; só os botões de tamanho são clicáveis */
-  pointer-events: none;
 }
 
 .product-card:hover .product-variants-card {
   opacity: 1;
-  visibility: visible;
   transform: translateY(0);
 }
 
-/* Painel de tamanhos desligado em todas as telas (desktop igual ao mobile) */
-.product-variants-card {
-  display: none !important;
+@media screen and (max-width: 767px) {
+  .product-variants-card {
+    display: none !important;
+  }
 }
 
 .variant-option {
@@ -9658,50 +9655,50 @@ html.touch .logo-list--right .logo-bar.animate {
   opacity: 0;
 }
 
-/* Quick add igual em todas as telas (antes só mobile) */
-.quick-add {
-  display: flex;
-  inset-inline-end: 0;
-  inset-block-end: 0;
-  z-index: 4;
-  padding-inline: var(--sp-3);
-  padding-block-end: var(--sp-3);
-}
+@media screen and (max-width: 767px) {
+  .quick-add {
+    display: flex;
+    inset-inline-end: 0;
+    inset-block-end: 0;
+    padding-inline: var(--sp-3);
+    padding-block-end: var(--sp-3);
+  }
 
-.quick-add .btn-loader {
-  gap: var(--sp-1d5);
-}
+  .quick-add .btn-loader {
+    gap: var(--sp-1d5);
+  }
 
-.quick-add .btn-loader span {
-  width: 4px;
-  height: 4px;
-}
+  .quick-add .btn-loader span {
+    width: 4px;
+    height: 4px;
+  }
 
-.quick-add .button {
-  height: var(--sp-10);
-}
+  .quick-add .button {
+    height: var(--sp-10);
+  }
 
-.quick-add .button:not([disabled]) {
-  padding: 0;
-  width: var(--sp-10);
-}
+  .quick-add .button:not([disabled]) {
+    padding: 0;
+    width: var(--sp-10);
+  }
 
-/* Desktop e mobile: só o ícone da sacola no canto, sem fundo */
-.quick-add .button:not([disabled]),
-.quick-add .button:not([disabled]):hover {
-  background: transparent;
-  border-color: transparent;
-  box-shadow: none;
-  color: rgb(var(--color-button-background));
-}
+  /* Mobile: only the bag icon, no button background */
+  .quick-add .button:not([disabled]),
+  .quick-add .button:not([disabled]):hover {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: rgb(var(--color-button-background));
+  }
 
-.quick-add .button:not([disabled]) .btn-fill {
-  display: none;
-}
+  .quick-add .button:not([disabled]) .btn-fill {
+    display: none;
+  }
 
-.quick-add .button:not([disabled]) .icon {
-  width: var(--sp-6);
-  height: var(--sp-6);
+  .quick-add .button:not([disabled]) .icon {
+    width: var(--sp-6);
+    height: var(--sp-6);
+  }
 }
 
 @media screen and (pointer: fine) {
