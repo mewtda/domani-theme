@@ -310,6 +310,32 @@
     "collection_list_c8W7hx": {
       "type": "collection-list",
       "blocks": {
+        "collection_T4GNnD": {
+          "type": "collection",
+          "settings": {
+            "collection": "cor-azul-marinho",
+            "image": "shopify://shop_images/DSC02412_1.jpg",
+            "title": "Azul Marinho",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_cT8p8T": {
+          "type": "collection",
+          "settings": {
+            "collection": "green-week-off-white",
+            "image": "shopify://shop_images/DOMANI_NEW_DROP_-176.jpg",
+            "title": "Off White",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_64C49X": {
           "type": "collection",
           "settings": {
@@ -335,38 +361,25 @@
             "overlay_opacity": 30
           }
         },
-        "collection_EaRd8T": {
-          "type": "collection",
-          "settings": {
-            "collection": "cor-eucalipto",
-            "image": "shopify://shop_images/Copia_de_DSC04682.jpg",
-            "title": "Eucalipto",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_cT8p8T": {
-          "type": "collection",
-          "settings": {
-            "collection": "green-week-off-white",
-            "image": "shopify://shop_images/DOMANI_NEW_DROP_-176.jpg",
-            "title": "Off White",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection_Q8Jdd9": {
           "type": "collection",
           "settings": {
             "collection": "cor-preto",
             "image": "shopify://shop_images/DOMANI_NEW_DROP_-150.jpg",
             "title": "Preto",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_EaRd8T": {
+          "type": "collection",
+          "settings": {
+            "collection": "cor-eucalipto",
+            "image": "shopify://shop_images/Copia_de_DSC04682.jpg",
+            "title": "Eucalipto",
             "description": "",
             "overlay_content": false,
             "color_text": "#ffffff",
@@ -413,19 +426,6 @@
             "overlay_opacity": 30
           }
         },
-        "collection_T4GNnD": {
-          "type": "collection",
-          "settings": {
-            "collection": "cor-azul-marinho",
-            "image": "shopify://shop_images/DSC02412_1.jpg",
-            "title": "Azul Marinho",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection_Mx9cPH": {
           "type": "collection",
           "settings": {
@@ -454,15 +454,15 @@
         }
       },
       "block_order": [
+        "collection_T4GNnD",
+        "collection_cT8p8T",
         "collection_64C49X",
         "collection_TB8EyK",
-        "collection_EaRd8T",
-        "collection_cT8p8T",
         "collection_Q8Jdd9",
+        "collection_EaRd8T",
         "collection_NXf9FB",
         "collection_Hxfzmz",
         "collection_KQUJ8C",
-        "collection_T4GNnD",
         "collection_Mx9cPH",
         "collection_6Ygwx7"
       ],
