@@ -111,7 +111,7 @@
       "type": "featured-collection",
       "name": "Coleção: Últimos Lançamentos",
       "settings": {
-        "collection": "novidades",
+        "collection": "green-week",
         "products": [],
         "product_limit": 12,
         "columns": 4,
@@ -119,7 +119,7 @@
         "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "Últimos Lançamentos",
+        "heading": "Green Week 2026",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
@@ -139,6 +139,41 @@
         "padding_bottom": 0,
         "divider": false,
         "full_width": true,
+        "rounded": false
+      }
+    },
+    "featured_collection_jypNzt": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "sale",
+        "products": [],
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "SALE: Com ainda mais desconto",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
         "rounded": false
       }
     },
@@ -274,6 +309,7 @@
     },
     "featured_collection_ggxTeX": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection: back in stock",
       "settings": {
         "collection": "back-in-stock",
@@ -773,6 +809,7 @@
   "order": [
     "slideshow_brdEjP",
     "featured_collection_kd8Ud4",
+    "featured_collection_jypNzt",
     "collection_list_UMLbY9",
     "rich-text",
     "featured_collection_ggxTeX",
