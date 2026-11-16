@@ -6179,6 +6179,14 @@ html.touch .has-modal-open {
   transition: opacity var(--animation-primary)
 }
 
+/* Chrome envolve o conteúdo do <details> em ::details-content, que vira o item flex
+   e cresce até a largura mínima do conteúdo (ex.: selo de desconto longo), empurrando
+   quantidade e subtotal para fora do drawer. */
+.drawer__panel::details-content {
+  min-width: 0;
+  width: 100%;
+}
+
 .drawer__scrollable {
   overflow-x: hidden;
   overflow-y: auto;
@@ -6378,6 +6386,17 @@ html.touch .has-modal-open {
 .horizontal-product__details .discounts .badge {
   padding: var(--sp-2) var(--sp-3d5);
   font-size: var(--text-xs);
+  line-height: 1.3;
+}
+
+/* Permite que título/selos quebrem linha em vez de alargar o item do carrinho */
+cart-items .horizontal-products {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+cart-items .horizontal-product__details {
+  min-width: 0;
+  flex: 1 1 0%;
 }
 
 .horizontal-product__quantity {
