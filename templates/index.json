@@ -23,7 +23,7 @@
             "button_label": "shop now",
             "button_link": "shopify://collections/linha-club",
             "link_whole_banner": true,
-            "button_external": true,
+            "button_external": false,
             "button_icon": false,
             "button_secondary_style": false
           }
@@ -39,7 +39,7 @@
             "button_label": "conheça a coleção",
             "button_link": "shopify://collections/by-gabriela-diniz",
             "link_whole_banner": true,
-            "button_external": true,
+            "button_external": false,
             "button_icon": false,
             "button_secondary_style": false
           }

@@ -142,7 +142,6 @@
               <div class="product__text rte {{ block.settings.text_size }}" {{ block.shopify_attributes }}>
                 {{- product.description -}}
               </div>
-            {%- render 'mewtda_video' -%}
             {%- when 'title' -%}
               {%- liquid
                 assign price_block = section.blocks | where: "type", "price" | first
@@ -695,6 +694,7 @@
           {%- endcase -%}
         {%- endfor -%}
       </product-info>
+      {%- render 'mewtda_video' -%}
     </div>
 
     {%- assign sticky_buy_button = section.blocks | where: "type", "sticky_buy_button" | first -%}
