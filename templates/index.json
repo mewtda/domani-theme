@@ -33,7 +33,7 @@
           "settings": {
             "image": "shopify://shop_images/BANNERS_SITE_19.png",
             "image_mobile": "shopify://shop_images/BANNERS_SITE_19.png",
-            "heading": "Green Week: Sale com ainda mais desconto!",
+            "heading": "Até 70% OFF: Sale com ainda mais desconto!",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "button_label": "shop now",
@@ -184,9 +184,9 @@
           "type": "collection",
           "settings": {
             "collection": "linha-casual",
-            "image": "shopify://shop_images/SHOOTING_DOMANI_20_AGOSTO-762.jpg",
-            "title": "Linha Casual",
-            "description": "Desenvolvida em Modal, nossa linha Casual combina toque extremamente macio, conforto e versatilidade para acompanhar todos os momentos do dia.",
+            "image": "shopify://shop_images/Copia_de_32BA1843-C9DF-4CA8-A173-A49D26A704FB_1.jpg",
+            "title": "Linha Club",
+            "description": "A Linha Club une tecnologia, conforto e estilo em peças versáteis e funcionais. Pensadas para acompanhar você dentro e fora das quadras.",
             "overlay_content": true,
             "color_text": "#ffffff",
             "color_overlay": "#000000",
