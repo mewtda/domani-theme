@@ -18,10 +18,10 @@
           "type": "announcement",
           "settings": {
             "icon": "none",
-            "text": "Cadastre seu email e ganhe 10% OFF na sua primeira compra!",
+            "text": "GREEN WEEK: Descontos progressivos de até 35% Off em peças selecionadas!",
             "link": "",
             "hide_icon_mobile": true,
-            "text_mobile": "Cadastre seu email e ganhe 10% OFF na sua primeira compra!",
+            "text_mobile": "GREEN WEEK: Descontos progressivos de até 35% Off em peças selecionadas&nbsp;",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -39,8 +39,8 @@
         "autoplay": true,
         "autoplay_speed": 7,
         "show_navigation": true,
-        "color_text": "#ffffff",
-        "color_background": "#7d3c32",
+        "color_text": "#432621",
+        "color_background": "#DBDB9A",
         "gradient_background": "",
         "color_highlight": "#ffddbf",
         "gradient_highlight": "",
