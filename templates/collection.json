@@ -61,10 +61,120 @@
         "full_width": true,
         "rounded": false
       }
+    },
+    "collection-promo-banners": {
+      "type": "collection-promo-banners",
+      "blocks": {
+        "banner_1": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Copia_de_DSC04779.jpg",
+            "image_ratio": "square",
+            "heading": "Essential",
+            "subtext": "",
+            "overlay_content": true,
+            "link": "shopify://collections/essential",
+            "tag": "",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "banner_2": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Domani_22-06-26_83256.jpg",
+            "image_ratio": "square",
+            "heading": "Rib",
+            "subtext": "",
+            "overlay_content": true,
+            "link": "shopify://collections/tecido-rib",
+            "tag": "",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "banner_3": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Domani_22-06-26_82847.jpg",
+            "image_ratio": "square",
+            "heading": "Casual",
+            "subtext": "",
+            "overlay_content": true,
+            "link": "shopify://collections/linha-casual",
+            "tag": "",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "banner_4": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/9D7FEFAE-6602-494D-B57B-8E99B5448A36_1.jpg",
+            "image_ratio": "square",
+            "heading": "Collab Styling By GD",
+            "subtext": "",
+            "overlay_content": true,
+            "link": "shopify://collections/by-gabriela-diniz",
+            "tag": "New In",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "banner_5": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Domani_22-06-26_82257.jpg",
+            "image_ratio": "square",
+            "heading": "Linha Tech",
+            "subtext": "",
+            "overlay_content": true,
+            "link": "shopify://collections/linha-tech",
+            "tag": "",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "banner_6": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/FD7E2878-22F4-4D88-B039-12EBFA1B260C.jpg",
+            "image_ratio": "square",
+            "heading": "Linha Club",
+            "subtext": "",
+            "overlay_content": true,
+            "link": "shopify://collections/linha-club",
+            "tag": "New In",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "banner_1",
+        "banner_2",
+        "banner_3",
+        "banner_4",
+        "banner_5",
+        "banner_6"
+      ],
+      "settings": {
+        "collection_handles": "all",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "main-collection-banner",
+    "collection-promo-banners",
     "main-collection"
   ]
 }

@@ -1,0 +1,179 @@
+{%- comment -%}
+  Banners de coleções (mesmo visual dos promos do mega menu "Coleções").
+  Só renderiza quando o handle da coleção atual está na lista "collection_handles".
+{%- endcomment -%}
+{%- liquid
+  assign allowed_handles = section.settings.collection_handles | remove: ' ' | split: ','
+  assign show_section = false
+  if allowed_handles contains collection.handle
+    assign show_section = true
+  endif
+  if section.settings.collection_handles == blank
+    assign show_section = true
+  endif
+-%}
+
+{%- if show_section and section.blocks.size > 0 -%}
+  <style>
+    #shopify-section-{{ section.id }} {
+      --section-padding-top: {{ section.settings.padding_top }}px;
+      --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    #shopify-section-{{ section.id }} .collection-promo-banners__grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--sp-2);
+    }
+    @media screen and (min-width: 768px) {
+      #shopify-section-{{ section.id }} .collection-promo-banners__grid {
+        gap: var(--sp-4);
+      }
+    }
+    #shopify-section-{{ section.id }} .media-card__text {
+      --tw-translate-x: 0;
+      opacity: 1;
+    }
+    @media screen and (max-width: 767px) {
+      #shopify-section-{{ section.id }} .media-card--overlap .media-card__content {
+        padding-block-end: var(--sp-3);
+        padding-inline: var(--sp-3);
+      }
+    }
+  </style>
+
+  <div class="section section--padding">
+    <div class="page-width{% if section.settings.full_width %} page-width--full{% endif %}">
+      <ul class="collection-promo-banners__grid" role="list">
+        {%- for block in section.blocks -%}
+          {%- liquid
+            assign b = block.settings
+          -%}
+          <li class="media-card media-card--{{ settings.card_style }}{% if b.overlay_content %} media-card--overlap{% endif %} overflow-hidden w-full" {{ block.shopify_attributes }}>
+            <a class="media-card__link grid w-full h-full relative"{% if b.link != blank %} href="{{ b.link }}"{% else %} role="link" aria-disabled="true"{% endif %}
+              style="--color-foreground: {{ b.color_text.rgb }}; --color-overlay: {{ b.color_overlay.rgb }}; --overlay-opacity: {{ b.overlay_opacity | divided_by: 100.0 }};"
+            >
+              {%- if b.tag != blank -%}
+                <div class="badges z-2 absolute grid gap-3 pointer-events-none">
+                  <span class="badge badge--onsale flex items-center gap-1d5 font-medium leading-none rounded-full">{{ b.tag | escape }}</span>
+                </div>
+              {%- endif -%}
+              <div class="media media--{{ b.image_ratio }} relative overflow-hidden">
+                {%- if b.image != blank -%}
+                  {{- b.image | image_url: width: b.image.width | image_tag: loading: 'lazy', sizes: '(min-width: 768px) 50vw, 50vw', widths: '360,540,720,900,1080,1296,1512,1728,2048', is: 'lazy-image' -}}
+                {%- else -%}
+                  {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
+                {%- endif -%}
+              </div>
+              {%- if b.heading != blank or b.subtext != blank -%}
+                <div class="media-card__content flex justify-between items-center gap-4 w-full">
+                  <div class="media-card__text shrink-1">
+                    {%- if b.heading != blank -%}
+                      <span class="heading reversed-link text-xl-3xl tracking-tighter leading-none">{{ b.heading | escape }}</span>
+                    {%- endif -%}
+                    {%- if b.subtext != blank -%}
+                      <p class="leading-none text-xs">{{ b.subtext }}</p>
+                    {%- endif -%}
+                  </div>
+                </div>
+              {%- endif -%}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Banners de coleções",
+  "tag": "section",
+  "class": "collection-promo-banners",
+  "settings": [
+    {
+      "type": "text",
+      "id": "collection_handles",
+      "label": "Mostrar apenas nas coleções (handles)",
+      "info": "Separe por vírgula. Ex.: all. Deixe vazio para mostrar em todas.",
+      "default": "all"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Largura total",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Espaço superior",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Espaço inferior",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "Banner",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Imagem" },
+        {
+          "type": "select",
+          "id": "image_ratio",
+          "label": "Proporção da imagem",
+          "options": [
+            { "value": "adapt", "label": "Adaptar à imagem" },
+            { "value": "portrait", "label": "Retrato" },
+            { "value": "square", "label": "Quadrado" },
+            { "value": "landscape", "label": "Paisagem" },
+            { "value": "wide", "label": "Larga" }
+          ],
+          "default": "square"
+        },
+        { "type": "text", "id": "heading", "label": "Título" },
+        { "type": "inline_richtext", "id": "subtext", "label": "Subtexto" },
+        { "type": "checkbox", "id": "overlay_content", "label": "Texto sobre a imagem", "default": true },
+        { "type": "url", "id": "link", "label": "Link" },
+        { "type": "text", "id": "tag", "label": "Etiqueta" },
+        { "type": "color", "id": "color_text", "label": "Cor do texto", "default": "#ffffff" },
+        { "type": "color", "id": "color_overlay", "label": "Cor da sobreposição", "default": "#000000" },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "label": "Opacidade da sobreposição",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "%",
+          "default": 10
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banners de coleções",
+      "blocks": [
+        { "type": "banner" },
+        { "type": "banner" }
+      ]
+    }
+  ],
+  "enabled_on": {
+    "templates": ["collection"]
+  }
+}
+{% endschema %}
