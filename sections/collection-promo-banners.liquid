@@ -4,6 +4,8 @@
 {%- endcomment -%}
 {%- liquid
   assign allowed_handles = section.settings.collection_handles | remove: ' ' | split: ','
+  assign desktop_vw = 100 | divided_by: section.settings.columns_desktop
+  assign image_sizes = '(min-width: 768px) ' | append: desktop_vw | append: 'vw, 50vw'
   assign show_section = false
   if allowed_handles contains collection.handle
     assign show_section = true
@@ -26,6 +28,7 @@
     }
     @media screen and (min-width: 768px) {
       #shopify-section-{{ section.id }} .collection-promo-banners__grid {
+        grid-template-columns: repeat({{ section.settings.columns_desktop }}, minmax(0, 1fr));
         gap: var(--sp-4);
       }
     }
@@ -59,7 +62,7 @@
               {%- endif -%}
               <div class="media media--{{ b.image_ratio }} relative overflow-hidden">
                 {%- if b.image != blank -%}
-                  {{- b.image | image_url: width: b.image.width | image_tag: loading: 'lazy', sizes: '(min-width: 768px) 50vw, 50vw', widths: '360,540,720,900,1080,1296,1512,1728,2048', is: 'lazy-image' -}}
+                  {{- b.image | image_url: width: b.image.width | image_tag: loading: 'lazy', sizes: image_sizes, widths: '360,540,720,900,1080,1296,1512,1728,2048', is: 'lazy-image' -}}
                 {%- else -%}
                   {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
                 {%- endif -%}
@@ -96,6 +99,15 @@
       "label": "Mostrar apenas nas coleções (handles)",
       "info": "Separe por vírgula. Ex.: all. Deixe vazio para mostrar em todas.",
       "default": "all"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Banners por linha (desktop)",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 3
     },
     {
       "type": "checkbox",

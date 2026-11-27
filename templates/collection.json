@@ -39,6 +39,7 @@
         "divider": false,
         "full_width": true,
         "rounded": false,
+        "title_all": "Coleções",
         "enable_parallax": false,
         "parallax_direction": "vertical"
       }
@@ -69,7 +70,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/Copia_de_DSC04779.jpg",
-            "image_ratio": "square",
+            "image_ratio": "landscape",
             "heading": "Essential",
             "subtext": "",
             "overlay_content": true,
@@ -84,7 +85,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/Domani_22-06-26_83256.jpg",
-            "image_ratio": "square",
+            "image_ratio": "landscape",
             "heading": "Rib",
             "subtext": "",
             "overlay_content": true,
@@ -99,7 +100,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/Domani_22-06-26_82847.jpg",
-            "image_ratio": "square",
+            "image_ratio": "landscape",
             "heading": "Casual",
             "subtext": "",
             "overlay_content": true,
@@ -114,7 +115,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/9D7FEFAE-6602-494D-B57B-8E99B5448A36_1.jpg",
-            "image_ratio": "square",
+            "image_ratio": "landscape",
             "heading": "Collab Styling By GD",
             "subtext": "",
             "overlay_content": true,
@@ -129,7 +130,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/Domani_22-06-26_82257.jpg",
-            "image_ratio": "square",
+            "image_ratio": "landscape",
             "heading": "Linha Tech",
             "subtext": "",
             "overlay_content": true,
@@ -144,7 +145,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/FD7E2878-22F4-4D88-B039-12EBFA1B260C.jpg",
-            "image_ratio": "square",
+            "image_ratio": "landscape",
             "heading": "Linha Club",
             "subtext": "",
             "overlay_content": true,
@@ -166,6 +167,7 @@
       ],
       "settings": {
         "collection_handles": "all",
+        "columns_desktop": 3,
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 40

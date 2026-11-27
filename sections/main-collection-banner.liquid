@@ -4,7 +4,12 @@
     assign mobile_image = section.settings.image_mobile | default: desktop_image
   endif
 
-  assign collection_alt = desktop_image.alt | default: collection.title
+  assign collection_title = collection.title
+  if collection.handle == 'all' and section.settings.title_all != blank
+    assign collection_title = section.settings.title_all
+  endif
+
+  assign collection_alt = desktop_image.alt | default: collection_title
 -%}
 
 <style>
@@ -90,14 +95,14 @@
                               <a class="block" href="{{ routes.collections_url }}" is="magnet-link">{{ 'general.breadcrumbs.collections' | t }}</a>
                             </li>
                           {%- endif -%}
-                          <li class="flex items-center gap-4 md:gap-6">{{ collection.title }}</li>
+                          <li class="flex items-center gap-4 md:gap-6">{{ collection_title }}</li>
                         </ul>
                       </nav>
                     </animate-element>
 
                   {%- when 'title' -%}
                     <h1 class="banner__title heading leading-none {{ block.settings.title_size }}{% if block.settings.title_size == 'title-xl' %} tracking-heading{% endif %}{% unless desktop_image %} relative{% endunless %}" {{ block.shopify_attributes }}>
-                      <split-words class="split-words flex flex-wrap" data-animate="fade-up-large" data-animate-delay="{{ delay | times: 250 }}">{{ collection.title }}</split-words>
+                      <split-words class="split-words flex flex-wrap" data-animate="fade-up-large" data-animate-delay="{{ delay | times: 250 }}">{{ collection_title }}</split-words>
                       {%- unless desktop_image -%}
                         {%- if collection.metafields.theme.marquee.value != blank -%}
                           <div class="block absolute bottom-0 w-full pointer-events-none">
@@ -135,6 +140,12 @@
     {
       "type": "paragraph",
       "content": "t:sections.main-collection-banner.settings.paragraph.content"
+    },
+    {
+      "type": "text",
+      "id": "title_all",
+      "label": "Título na página de todas as coleções (/collections/all)",
+      "default": "Coleções"
     },
     {
       "type": "checkbox",
